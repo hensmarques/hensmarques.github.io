@@ -5,9 +5,9 @@
 
 
 
-$( document ).ready(function() {
+$( window ).ready(function() {
     "use strict";
-	
+	console.log('fadsfasfas');
 	if( $('#chart_1').length > 0 ){
 		var ctx1 = document.getElementById("chart_1").getContext("2d");
 		var data1 = {
@@ -29,14 +29,14 @@ $( document ).ready(function() {
 				pointBackgroundColor: "#26c6da",
 				data: [48, 88, 50, 58, 34, 67, 65],
 			}
-			
+
 		]
 		};
-		
+
 		var areaChart = new Chart(ctx1, {
 			type:"line",
 			data:data1,
-			
+
 			options: {
 				tooltips: {
 					mode:"label"
@@ -46,7 +46,7 @@ $( document ).ready(function() {
 						hitRadius:90
 					}
 				},
-				
+
 				scales: {
 					yAxes: [{
 						stacked: true,
@@ -81,11 +81,11 @@ $( document ).ready(function() {
 					cornerRadius:0,
 					footerFontFamily:"'Poppins'"
 				}
-				
+
 			}
 		});
 	}
-    
+
 	if( $('#chart_2').length > 0 ){
 		var ctx2 = document.getElementById("chart_2").getContext("2d");
 		var data2 = {
@@ -105,11 +105,11 @@ $( document ).ready(function() {
 				}
 			]
 		};
-		
+
 		var hBar = new Chart(ctx2, {
 			type:"horizontalBar",
 			data:data2,
-			
+
 			options: {
 				tooltips: {
 					mode:"label"
@@ -135,7 +135,7 @@ $( document ).ready(function() {
 							fontColor:"#878787"
 						}
 					}],
-					
+
 				},
 				elements:{
 					point: {
@@ -154,77 +154,80 @@ $( document ).ready(function() {
 					cornerRadius:0,
 					footerFontFamily:"'Poppins'"
 				}
-				
+
 			}
 		});
 	}
 
-	if( $('#chart_3').length > 0 ){
-		var ctx3 = document.getElementById("chart_3").getContext("2d");
-		var data3 = {
-			labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+	if( $('#chart_contratos').length > 0 ){
+		var ctx2 = document.getElementById("chart_contratos").getContext("2d");
+		var data2 = {
+			labels: ["January", "February", "March", "April", "May", "June", "July"],
 			datasets: [
 				{
 					label: "My First dataset",
-					backgroundColor: "rgba(116, 96, 238, 0.6)",
-					borderColor: "rgba(116, 96, 238, 0.6)",
-					pointBackgroundColor: "rgba(116, 96, 238, 0.6)",
-					pointBorderColor: "#fff",
-					pointHoverBackgroundColor: "#fff",
-					pointHoverBorderColor: "rgba(116, 96, 238, 0.6)",
-					data: [65, 59, 90, 81, 56, 55, 40]
+					backgroundColor: "#E91E63",
+					borderColor: "#E91E63",
+					data: [10, 59, 40, 75, 50, 45, 80]
 				},
 				{
 					label: "My Second dataset",
-					backgroundColor: "rgba(57, 139, 247, 1)",
-					borderColor: "rgba(57, 139, 247, 1)",
-					pointBackgroundColor: "rgba(57, 139, 247, 1)",
-					pointBorderColor: "#fff",
-					pointHoverBackgroundColor: "#fff",
-					pointHoverBorderColor: "rgba(57, 139, 247, 1)",
-					data: [28, 48, 40, 19, 96, 27, 100]
+					backgroundColor: "#fc4b6c",
+					borderColor: "#fc4b6c",
+					data: [48, 88, 50, 58, 34, 67, 65]
 				}
 			]
 		};
-		var radarChart = new Chart(ctx3, {
-			type: "radar",
-			data: data3,
+
+		var hBar = new Chart(ctx2, {
+			type:"horizontalBar",
+			data:data2,
+
 			options: {
-					scale: {
-						ticks: {
-							beginAtZero: true,
-							fontFamily: "Poppins",
-							
-						},
+				tooltips: {
+					mode:"label"
+				},
+				scales: {
+					yAxes: [{
+						stacked: true,
 						gridLines: {
 							color: "rgba(135,135,135,0)",
 						},
-						pointLabels:{
+						ticks: {
 							fontFamily: "Poppins",
 							fontColor:"#878787"
+						}
+					}],
+					xAxes: [{
+						stacked: true,
+						gridLines: {
+							color: "rgba(135,135,135,0)",
 						},
-					},
-					
-					animation: {
-						duration:	3000
-					},
-					responsive: true,
-					legend: {
-							labels: {
+						ticks: {
 							fontFamily: "Poppins",
 							fontColor:"#878787"
-							}
-						},
-						elements: {
-							arc: {
-								borderWidth: 0
-							}
-						},
-						tooltip: {
-						backgroundColor:'rgba(33,33,33,1)',
-						cornerRadius:0,
-						footerFontFamily:"'Poppins'"
+						}
+					}],
+
+				},
+				elements:{
+					point: {
+						hitRadius:40
 					}
+				},
+				animation: {
+					duration:	3000
+				},
+				responsive: true,
+				legend: {
+					display: false,
+				},
+				tooltip: {
+					backgroundColor:'rgba(33,33,33,1)',
+					cornerRadius:0,
+					footerFontFamily:"'Poppins'"
+				}
+
 			}
 		});
 	}
@@ -278,7 +281,7 @@ $( document ).ready(function() {
 					ticks: {
 						beginAtZero: true,
 						fontFamily: "Poppins",
-						
+
 					},
 					gridLines: {
 						color: "rgba(135,135,135,0)",
@@ -362,7 +365,7 @@ $( document ).ready(function() {
 					hoverBackgroundColor: "#ffb22b",
 				}]
 		};
-		
+
 		var bubbleChart = new Chart(ctx5,{
 			type:"bubble",
 			data:data5,
@@ -439,7 +442,7 @@ $( document ).ready(function() {
 				]
 			}]
 		};
-		
+
 		var pieChart  = new Chart(ctx6,{
 			type: 'pie',
 			data: data6,
@@ -491,7 +494,7 @@ $( document ).ready(function() {
 				]
 			}]
 		};
-		
+
 		var doughnutChart = new Chart(ctx7, {
 			type: 'doughnut',
 			data: data7,
@@ -519,7 +522,7 @@ $( document ).ready(function() {
 			}
 		});
 	}
-	
+
 	if( $('#chart_8').length > 0 ){
 		var ctx2 = document.getElementById("chart_8").getContext("2d");
 		var data2 = {
@@ -545,11 +548,11 @@ $( document ).ready(function() {
 				}
 			]
 		};
-		
+
 		var hBar = new Chart(ctx2, {
 			type:"bar",
 			data:data2,
-			
+
 			options: {
 				tooltips: {
 					mode:"label"
@@ -575,7 +578,7 @@ $( document ).ready(function() {
 							fontColor:"#878787"
 						}
 					}],
-					
+
 				},
 				elements:{
 					point: {
@@ -590,15 +593,15 @@ $( document ).ready(function() {
 				legend: {
 					display: false,
 				},
-				
+
 				tooltip: {
 					backgroundColor:'rgba(33,33,33,1)',
 					cornerRadius:0,
 					footerFontFamily:"'Poppins'"
 				}
-				
+
 			}
 		});
 	}
-	
+
 }); // End of use strict

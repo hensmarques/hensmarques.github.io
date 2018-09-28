@@ -18,8 +18,23 @@
   color: #F3DD98;
 }
 
+.text-teal {
+  color: #5F7C96;
+}
+
 .text-white {
-  color: white;
+  color: #FFFFFF;
+}
+
+.link-small {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #20CDA6;
+  border-bottom: 1px solid #20CDA6;
+}
+
+.font-size-40 {
+  line-height: 1.2 !important;
 }
 
 .logo {
