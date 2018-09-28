@@ -37,8 +37,8 @@ Project:	Fab Admin - Responsive Admin Template
 -------------------------------------------------------------------*/
 
 
-/******************* 
-import icon and fonts Styles 
+/*******************
+import icon and fonts Styles
 *******************/
 @import url(../../assets/vendor_components/font-awesome/css/font-awesome.css);
 @import url(../../assets/vendor_components/Ionicons/css/ionicons.css);
@@ -67,7 +67,7 @@ Body :		Poppins, sans-serif;
 .h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
     font-family: Poppins, sans-serif;
 	line-height: 1.5;
-	text-shadow: none; 
+	text-shadow: none;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
     font-size: 65%;
@@ -330,7 +330,7 @@ a:active, a:focus, a:hover {
     font-size: 20px;
     line-height: 60px;
     text-align: left;
-    width: 230px;
+    width: 75px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 0 15px;
     font-weight: 300;
@@ -624,7 +624,7 @@ a:active, a:focus, a:hover {
 }
 .sidebar-menu>li>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
     width: 30px;
-	font-size: 18px;    
+	font-size: 18px;
 	display: none;
     vertical-align: middle;
     color: #555f6d;
@@ -1058,13 +1058,13 @@ body .main-header .navbar .nav > li.search-box > a:hover, body .main-header .nav
     box-shadow: 0 3px 12px rgba(0, 0, 0, .05);
     -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, .05);
     -moz-box-shadow: 0 3px 12px rgba(0, 0, 0, .05);
-    border-color: rgba(120, 130, 140, .13);	
+    border-color: rgba(120, 130, 140, .13);
     display: inline-block;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     -webkit-transform: scale(0);
     transform: scale(0);
-    transform-origin: right 0;	
+    transform-origin: right 0;
 }
 .show>.dropdown-menu.scale-up {
     transform: scale(1);
@@ -3170,7 +3170,7 @@ input[type="color"] {
 }
 
 .customtab li a.nav-link {
-    border: 0px;    
+    border: 0px;
   	padding: 0.5rem 0.75rem;
     color: #67757c;
 }
@@ -3311,7 +3311,7 @@ input[type="color"] {
     display: block;
     width: 100%;
     max-width: 1600px;
-    margin: 0 auto;    
+    margin: 0 auto;
 	z-index: 1;
 }
 .wizard-content .wizard>.steps .current-info {
@@ -6197,7 +6197,7 @@ ul.flexbox {
   margin: 0rem 1rem;
 }
 .media .nav-link:focus, .media .nav-link:hover {
-     background-color: transparent; 
+     background-color: transparent;
 }
 .media a:not(.btn):not(.avatar) {
   color: #616a78;
@@ -8167,8 +8167,8 @@ ul.flexbox {
 
 
 
-/*-----------------*/	
-	
+/*-----------------*/
+
 .box-comments {
     background: #f7f7f7;
 }
@@ -11485,7 +11485,7 @@ button.btn.dropdown-toggle::after, .wysihtml5-toolbar .btn.dropdown-toggle::afte
     margin-right: 0;
 }
 .nav-tabs-custom>.nav-tabs.float-right>li:first-of-type>a {
-    border-left-width: 1px;	
+    border-left-width: 1px;
 }
 .nav-tabs-custom>.nav-tabs.float-right>li:first-of-type>a.active {
     border-left-color: #f4f4f4;
@@ -11890,7 +11890,7 @@ tfoot input {
     border-radius: 5px;
     padding: 0.5rem 0.5rem;
     background: #efefef;
-    color: #67757c;	
+    color: #67757c;
     margin-bottom: 0.25rem;
 	    display: inherit;
 }
@@ -14069,7 +14069,7 @@ animation: AnimationName 20s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -14706,7 +14706,7 @@ animation: AnimationName 20s ease infinite;
     flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px;
-}	
+}
 .box-deck .box {
     display: -ms-flexbox;
     display: flex;
@@ -14717,7 +14717,7 @@ animation: AnimationName 20s ease infinite;
     margin-right: 15px;
     margin-bottom: 0;
     margin-left: 15px;
-}	
+}
 }
 .box-deck .box {
     margin-bottom: 20px;

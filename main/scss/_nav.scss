@@ -1,0 +1,37 @@
+.logo {
+    margin-right: 40px;
+
+    img{ width: 45px; }
+}
+
+.main-nav{
+    a{ color: white; }
+
+    i{
+        font-size: 20px;
+        line-height: 20px;
+        vertical-align: -2px;
+
+        &.fa-user-circle-o{ font-size: 18px; vertical-align: -0.5px; }
+    }
+}
+
+.coin-info{
+    display: flex;
+    flex: 1;
+    margin-left: 30px;
+    padding: 0 11px;
+    justify-content: space-between;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+    div:first-child {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        padding-right: 15px;
+    }
+
+    p{
+        margin: 0px;
+
+        span + span{ margin-left: 5px; }
+    }
+}

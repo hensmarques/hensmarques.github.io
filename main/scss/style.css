@@ -1,0 +1,79 @@
+.bd-radius-50p {
+  border-radius: 50%;
+}
+
+.text-green {
+  color: #34B512;
+}
+
+.text-orange {
+  color: #FABF03;
+}
+
+.text-pink {
+  color: #EA2770;
+}
+
+.text-beige {
+  color: #F3DD98;
+}
+
+.text-white {
+  color: white;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.logo img {
+  width: 45px;
+}
+
+.main-nav a {
+  color: white;
+}
+
+.main-nav i {
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: -2px;
+}
+
+.main-nav i.fa-user-circle-o {
+  font-size: 18px;
+  vertical-align: -0.5px;
+}
+
+.coin-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 30px;
+  padding: 0 11px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.coin-info div:first-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding-right: 15px;
+}
+
+.coin-info p {
+  margin: 0px;
+}
+
+.coin-info p span + span {
+  margin-left: 5px;
+}
+
+body .wrapper {
+  background-color: #f5f7fa !important;
+}
+/*# sourceMappingURL=style.css.map */
