@@ -88,6 +88,11 @@
   margin-left: 5px;
 }
 
+.skin-blue .main-header {
+  background: -webkit-gradient(linear, left top, right top, from(#2D4056), to(#141E2B));
+  background: linear-gradient(90deg, #2D4056 0%, #141E2B 100%);
+}
+
 body .wrapper {
   background-color: #f5f7fa !important;
 }
