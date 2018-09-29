@@ -7,7 +7,7 @@ window.onload = function() {
 }
 
 function fetchLayoutPart(part){
-    $.get('/main/'+part+'.html', (response) => {
+    $.get('/'+part+'.html', (response) => {
         $('.main-'+part+'').html(response);
 
         if(part == 'nav'){
