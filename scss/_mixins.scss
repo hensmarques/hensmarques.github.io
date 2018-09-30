@@ -2,6 +2,10 @@
     border-radius: 50%;
 }
 
+.margin-r-15{ margin-right: 15px; }
+.margin-t-5{ margin-top: 5px; }
+.filter-invert{ filter: invert(100%); }
+.text-underline{ text-decoration: underline !important; }
 .text-green{ color: #34B512 }
 .text-orange{ color: #FABF03 }
 .text-pink{ color: #EA2770 }
@@ -9,7 +13,7 @@
 .text-teal{ color: #5F7C96 }
 .text-white{ color: #FFFFFF }
 
-
+.btn-green{ background-color: #20CDA6; color: white; }
 .link-small{
     text-transform: uppercase;
     font-size: 11px;

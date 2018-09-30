@@ -6,16 +6,23 @@
 $(function () {
     "use strict";
 
-    $('#example1').DataTable();
-    $('#example2').DataTable({
+    $('#users').DataTable({
+        'searching' : false,
+        'lengthChange': false,
+    });
+
+    $('#transactions, #logs').DataTable({
       'paging'      : true,
       'lengthChange': false,
       'searching'   : false,
-      'ordering'    : true,
       'info'        : true,
-      'autoWidth'   : false
+      'autoWidth'   : true
     });
-	
+    
+    
+    if(document.getElementById("filter_date")){
+        $('#filter_date').daterangepicker({ format: 'DD/MM/YYYY' });
+    }
 	
 	$('#example').DataTable( {
 		dom: 'Bfrtip',

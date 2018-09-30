@@ -2,6 +2,23 @@
   border-radius: 50%;
 }
 
+.margin-r-15 {
+  margin-right: 15px;
+}
+
+.margin-t-5 {
+  margin-top: 5px;
+}
+
+.filter-invert {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.text-underline {
+  text-decoration: underline !important;
+}
+
 .text-green {
   color: #34B512;
 }
@@ -24,6 +41,11 @@
 
 .text-white {
   color: #FFFFFF;
+}
+
+.btn-green {
+  background-color: #20CDA6;
+  color: white;
 }
 
 .link-small {
@@ -91,6 +113,79 @@
 .skin-blue .main-header {
   background: -webkit-gradient(linear, left top, right top, from(#2D4056), to(#141E2B));
   background: linear-gradient(90deg, #2D4056 0%, #141E2B 100%);
+}
+
+table.dataTable.table {
+  border-collapse: collapse !important;
+}
+
+table.dataTable.table thead tr th {
+  font-weight: 600 !important;
+}
+
+table.dataTable.table .actions {
+  min-width: 50px;
+}
+
+.btn img {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  margin-right: 10px;
+}
+
+.box-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 1025px) {
+  .box-header > .box-tools, .box-header > .box-controls {
+    position: initial;
+  }
+  .box-header .btn {
+    min-width: 175px;
+  }
+  .box-header .form-control {
+    max-width: 150px;
+  }
+}
+
+.button-pills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button-pills .btn {
+  border-radius: 0;
+  padding: 9px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  border-color: white !important;
+}
+
+.button-pills .btn.btn-light {
+  background-color: #E4E7EA !important;
+  color: #616A78;
+}
+
+.button-pills .btn.btn-dark {
+  background-color: #616A78;
+}
+
+.button-pills .btn:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.button-pills .btn:last-child {
+  border-radius: 0 5px 5px 0;
 }
 
 body .wrapper {

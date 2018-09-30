@@ -1,0 +1,56 @@
+table.dataTable.table {
+    border-collapse: collapse !important;
+
+    thead tr th{
+        font-weight: 600 !important;
+    }
+
+    .actions{ min-width: 50px; }
+}
+
+.btn img{
+    transform: translateY(-1px);
+    margin-right: 10px;
+}
+
+
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    @media screen and (min-width: 1025px){
+        >.box-tools, > .box-controls{
+            position: initial;
+        }
+
+        .btn{ min-width: 175px; }
+        .form-control{ max-width: 150px; }
+    }
+    
+}
+
+.button-pills{
+    display: flex;
+
+    .btn{ 
+        border-radius: 0; 
+        padding: 9px 10px;
+        font-size: 12px;
+        font-weight: 500;
+        border-color: white !important;
+
+        &.btn-light{
+            background-color: #E4E7EA !important;
+            color: #616A78;
+        }
+
+        &.btn-dark{
+            background-color: #616A78;
+        }
+    } 
+    
+    .btn:first-child{ border-radius: 5px 0 0 5px; }
+    .btn:last-child{ border-radius: 0 5px 5px 0; }
+}

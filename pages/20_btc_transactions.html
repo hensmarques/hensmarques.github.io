@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/favicon.ico">
+    <script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+
+    <title>Nasdacoin Admin - Transações BTC</title>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+    <div class="wrapper">
+
+        <header class="main-header"></header>
+        <div class="main-nav"></div>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <link rel="stylesheet" type="text/css" href="../..//assets/vendor_components/datatable/datatables.min.css" />
+
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border">
+                                <h3 class="box-title">Extrato das Transações</h3>
+
+                                <div class="box-controls pull-right margin-t-5">
+                                    <a href="#" class="btn btn-info"> <img src="/images/icons/bitcoin.png" width="18" alt="" class="filter-invert"> Voltar</a>
+                                </div>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="dataTables_length" id="nsd_transactions_length">
+                                        <label class="d-flex align-items-center">
+                                            <span class="margin-r-5">Filtro</span>
+                                            <select name="nsd_transactions_length" aria-controls="nsd_transactions"
+                                                class="form-control form-control-sm">
+                                                <option value="10">Últimos 7 dias</option>
+                                                <option value="25">Últimos 25 dias</option>
+                                                <option value="50">Últimos 50 dias</option>
+                                                <option value="100">Últimos 10 dias0</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table id="transactions" class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>ID Transação</th>
+                                                <th>Tipo</th>
+                                                <th>Valor (BTC)</th>
+                                                <th>Descrição</th>
+                                                <th>Data e Hora</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Crédito</td>
+                                                <td class="text-info">22.698513</td>
+                                                <td>Recebimento Externo</td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Débito</td>
+                                                <td class="text-danger">- 22.698513</td>
+                                                <td>Transferencia Direta</td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Crédito</td>
+                                                <td class="text-info">22.698513</td>
+                                                <td>Rate</td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Débito</td>
+                                                <td class="text-danger">- 22.698513</td>
+                                                <td>Buy Order <a href="#" class="text-gray text-underline">025694</a></td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                            
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Crédito</td>
+                                                <td class="text-info">22.698513</td>
+                                                <td>Conversão BTC</td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Débito</td>
+                                                <td class="text-danger">- 22.698513</td>
+                                                <td>Conversão USD</td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Débito</td>
+                                                <td class="text-info">22.698513</td>
+                                                <td>Sell Order <a href="#" class="text-gray text-underline">025487</a></td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>FBR-12348-004</td>
+                                                <td>Crédito</td>
+                                                <td class="text-danger">- 22.698513</td>
+                                                <td>Conversão BTC</td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
+
+            <script src="/assets/vendor_components/datatable/datatables.min.js"></script>
+            <script src="/js/pages/data-table.js"></script>
+
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer"></footer>
+    </div>
+
+    <script>var activeMenu = 'dashboard'; </script>
+    <script src="/layout-builder.js"></script>
+</body>
+
+</html>

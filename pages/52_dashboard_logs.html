@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/favicon.ico">
+    <script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+
+    <title>Nasdacoin Admin - Relatório de Logs</title>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+    <div class="wrapper">
+
+        <header class="main-header"></header>
+        <div class="main-nav"></div>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <link rel="stylesheet" type="text/css" href="../..//assets/vendor_components/datatable/datatables.min.css" />
+            <link rel="stylesheet" href="../..//assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css">
+            <link rel="stylesheet" href="../..//assets/vendor_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border">
+                                <h3 class="box-title">Extrato das Transações</h3>
+
+                                <div class="box-controls pull-right margin-t-5">
+                                    <label for="#" class="d-flex align-items-center">
+                                        <span class="margin-r-15">Search: </span>
+                                        <input type="text" class="form-control">
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="filter_date"><strong>Selecione o Período</strong></label>
+                                        <div class="input-group date">
+                                            <div class="input-group-addon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <input type="text" class="form-control pull-right" id="filter_date">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <label for=""><strong>Gerar log de qual módulo?</strong></label>
+                                        <div class="d-flex justify-content-between">
+                                            <input name="filter_module" type="radio" id="mod_exchange" class="with-gap radio-col-red" checked>
+                                            <label for="mod_exchange">Exchange</label>
+
+                                            <input name="filter_module" type="radio" id="mod_wallets" class="with-gap radio-col-red">
+                                            <label for="mod_wallets">Wallets</label>
+
+                                            <input name="filter_module" type="radio" id="mod_seguranca" class="with-gap radio-col-red">
+                                            <label for="mod_seguranca">Segurança</label>
+
+                                            <input name="filter_module" type="radio" id="mod_geral" class="with-gap radio-col-red">
+                                            <label for="mod_geral">Geral</label>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex align-items-center justify-content-center">
+                                        <a href="#" class="btn btn-green font-size-12 text-uppercase">Gerar Relatorio</a>
+                                    </div>
+                                </div>
+
+                                <div class="table-responsive">
+                                    <table id="Logs" class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Gerado por</th>
+                                                <th>Descrição</th>
+                                                <th>Data</th>
+                                                <th>Tipo</th>
+                                                <th>Log</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="#" class="text-info">Usuário</a></td>
+                                                <td>Solicitou lembrete de senha</td>
+                                                <td>11/05/2017 - 01:00:34</td>
+                                                <td>Login</td>
+                                                <td><a href="#" class="text-info">LOG003805353</a></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
+
+            <script src="/assets/vendor_components/datatable/datatables.min.js"></script>
+            <script src="/assets/vendor_components/moment/min/moment.min.js"></script>
+            <script src="/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+            <script src="/js/pages/data-table.js"></script>
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer"></footer>
+    </div>
+
+    <script>var activeMenu = 'dashboard'; </script>
+    <script src="/layout-builder.js"></script>
+</body>
+
+</html>
