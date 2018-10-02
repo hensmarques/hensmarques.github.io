@@ -61,6 +61,7 @@
 
 span.btn {
   cursor: auto !important;
+  padding: 5px 7px;
 }
 
 .w-100 {
@@ -168,6 +169,7 @@ table.dataTable.table .actions {
 .box-control .input-group input {
   max-width: 170px;
   width: 100%;
+  font-size: 13px;
 }
 
 .button-pills {
