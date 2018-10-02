@@ -63,6 +63,10 @@ span.btn {
   cursor: auto !important;
 }
 
+.w-100 {
+  width: 100px;
+}
+
 .logo {
   margin-right: 40px;
 }
@@ -150,7 +154,7 @@ table.dataTable.table .actions {
 }
 
 @media screen and (min-width: 1025px) {
-  .box-header > .box-tools, .box-header > .box-controls {
+  .box-header > .box-tools, .box-header > .box-control, .box-header > .box-controls {
     position: initial;
   }
   .box-header .btn {
@@ -159,6 +163,11 @@ table.dataTable.table .actions {
   .box-header .form-control {
     max-width: 150px;
   }
+}
+
+.box-control .input-group input {
+  max-width: 170px;
+  width: 100%;
 }
 
 .button-pills {

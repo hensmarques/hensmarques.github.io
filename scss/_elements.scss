@@ -21,14 +21,18 @@ table.dataTable.table {
 
 
     @media screen and (min-width: 1025px){
-        >.box-tools, > .box-controls{
+        >.box-tools, > .box-control, > .box-controls{
             position: initial;
         }
 
         .btn{ min-width: 175px; }
         .form-control{ max-width: 150px; }
     }
+}
 
+
+.box-control{
+    .input-group input { max-width: 170px; width: 100%; }
 }
 
 .button-pills{
