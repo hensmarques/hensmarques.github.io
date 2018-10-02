@@ -28,14 +28,14 @@ table.dataTable.table {
         .btn{ min-width: 175px; }
         .form-control{ max-width: 150px; }
     }
-    
+
 }
 
 .button-pills{
     display: flex;
 
-    .btn{ 
-        border-radius: 0; 
+    .btn{
+        border-radius: 0;
         padding: 9px 10px;
         font-size: 12px;
         font-weight: 500;
@@ -49,8 +49,12 @@ table.dataTable.table {
         &.btn-dark{
             background-color: #616A78;
         }
-    } 
-    
+    }
+
     .btn:first-child{ border-radius: 5px 0 0 5px; }
     .btn:last-child{ border-radius: 0 5px 5px 0; }
+}
+
+.lookup-circle input{
+    width: 136px;
 }

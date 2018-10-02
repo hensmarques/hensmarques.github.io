@@ -59,6 +59,10 @@
   line-height: 1.2 !important;
 }
 
+span.btn {
+  cursor: auto !important;
+}
+
 .logo {
   margin-right: 40px;
 }
@@ -186,6 +190,10 @@ table.dataTable.table .actions {
 
 .button-pills .btn:last-child {
   border-radius: 0 5px 5px 0;
+}
+
+.lookup-circle input {
+  width: 136px;
 }
 
 body .wrapper {
