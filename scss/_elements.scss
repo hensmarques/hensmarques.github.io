@@ -83,3 +83,43 @@ table.dataTable.table {
         left: 0;
     }
 }
+
+.nav-pills{
+    .nav-item{
+        background: #CBD4DD;
+        border-radius: 5px;
+        margin-right: 15px;
+
+        .active{ background-color: #4A90E2; }
+        .active img, .active i{ filter: invert(100%); opacity: 1; }
+
+        a{
+            color: #5F7C96;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            border: none;
+
+            img, i {
+                margin-right: 10px;
+                opacity: 0.6;
+                color: black;
+                line-height: 18px;
+            }
+        }
+    }
+}
+
+.inner-box-header{
+    display: flex;
+    align-items: center;
+    border: 1px solid #D2D6DE;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.inner-box-body{
+    border: 1px solid #D2D6DE;
+    border-top: none;
+    padding: 20px;
+}
