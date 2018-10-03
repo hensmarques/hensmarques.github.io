@@ -1,17 +1,23 @@
 'use strict';
 
-window.onload = function() {
-    const parts = ['header', 'nav', 'footer'];
+const parts = ['header', 'nav', 'footer'];
+let loadedParts = 0;
 
+window.onload = function() {
     parts.map(x => fetchLayoutPart(x));
 }
 
 function fetchLayoutPart(part){
     $.get('/'+part+'.html', (response) => {
         $('.main-'+part+'').html(response);
+        loadedParts++;
 
         if(part == 'nav'){
             $('.nav-item-'+activeMenu).addClass('active')
+        }
+
+        if(loadedParts == parts.length){
+            $('body').removeClass('loading');
         }
     });
 }

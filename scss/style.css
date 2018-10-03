@@ -10,6 +10,10 @@
   margin-top: 5px;
 }
 
+.margin-t-15 {
+  margin-top: 15px;
+}
+
 .filter-invert {
   -webkit-filter: invert(100%);
           filter: invert(100%);
@@ -66,6 +70,10 @@ span.btn {
 
 .w-100 {
   width: 100px;
+}
+
+.h-100p {
+  height: 100%;
 }
 
 .logo {
@@ -205,6 +213,33 @@ table.dataTable.table .actions {
 
 .lookup-circle input {
   width: 136px;
+}
+
+.loading {
+  position: relative;
+}
+
+.loading:after {
+  content: 'Carregando...';
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #eee;
+  color: #666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 900;
+  font-size: 25px;
+  z-index: 10000;
+  top: 0;
+  left: 0;
 }
 
 body .wrapper {
