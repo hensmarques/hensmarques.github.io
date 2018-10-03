@@ -72,6 +72,10 @@ span.btn {
   width: 100px;
 }
 
+.w-100p {
+  width: 100%;
+}
+
 .h-100p {
   height: 100%;
 }

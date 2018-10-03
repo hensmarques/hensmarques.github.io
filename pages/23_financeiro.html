@@ -52,7 +52,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#navpills-5" class="nav-link" data-toggle="tab" aria-expanded="true">
+                                        <a href="#payment-day" class="nav-link" data-toggle="tab" aria-expanded="true">
                                             <i class="mdi mdi-credit-card-multiple font-size-18"></i> Pagamento do Dia
                                         </a>
                                     </li>
@@ -281,6 +281,76 @@
                                         </div>
 
                                     </div>
+
+                                    <div id="payment-day" class="tab-pane">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <h3 class="text-dark m-0">Pagamentos do Dia</h3>
+                                                    <p class="text-lighter font-weight-300">Agende e Realize os pagamentos de bônus</p>
+                                                </div>
+
+                                                <div class="col-md-8 d-flex align-items-center">
+                                                    <div class="d-flex w-100p">
+                                                        <div class="col-md-6">
+                                                            <label for="filter_value">Value (if you want to pay 1%, insert 0,01)</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-dollar"></i>
+                                                                </div>
+                                                                <input type="text" class="form-control pull-right text-right" id="filter_value">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <label for="filter_date">Digite a data</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-calendar"></i>
+                                                                </div>
+                                                                <input type="text" class="form-control pull-right text-right" id="filter_date">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-2 d-flex align-items-end">
+                                                            <a href="#" class="btn btn-green text-uppercase btn-block">Pagar</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="table-responsive">
+                                                        <table id="payment-day-table" class="table table-hover">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Day</th>
+                                                                    <th>Value</th>
+                                                                    <th>Processed At</th>
+                                                                    <th>Via</th>
+                                                                    <th>Contracts</th>
+                                                                    <th>Binary</th>
+                                                                    <th>Monthly</th>
+                                                                    <th>Daily</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>2018-08-28</td>
+                                                                    <td>0.0088</td>
+                                                                    <td>2018-08-27 22:53:46</td>
+                                                                    <td>Admin ID: 1</td>
+                                                                    <td>2230</td>
+                                                                    <td>2200</td>
+                                                                    <td>10618</td>
+                                                                    <td>1584</td>
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                 </div>
                             </div>
                             <!-- /.box-body -->
