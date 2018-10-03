@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/favicon.ico">
+    <script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+
+    <title>Nasdacoin Admin - Extrato de Movimentação</title>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+    <div class="wrapper">
+
+        <header class="main-header"></header>
+        <div class="main-nav"></div>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <link rel="stylesheet" type="text/css" href="../..//assets/vendor_components/datatable/datatables.min.css" />
+            <link rel="stylesheet" href="../..//assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css">
+            <link rel="stylesheet" href="../..//assets/vendor_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border">
+                                <h3 class="box-title"><img src="/images/icons/bitcoin.png" width="32" alt="" class="op-7 margin-r-15"> Extrato de Movimentação</h3>
+
+                                <span><strong class="text-uppercase">BTC-Standard</strong></span>
+
+                                <div class="box-controls pull-right margin-t-5">
+                                    <a href="#" class="btn btn-info">
+                                        <img src="/images/icons/bitcoin.png" class="filter-invert" width="18" alt=""> Voltar
+                                    </a>
+
+                                    <label for="#" class="d-flex align-items-center margin-r-15 margin-t-5">
+                                        <span class="margin-r-15">Search: </span>
+                                        <input type="text" class="form-control">
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="input-group date">
+                                            <div class="input-group-addon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <input type="text" class="form-control pull-right" id="filter_date">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="d-flex justify-content-between align-items-center h-100p">
+                                            <input name="filter_movement" type="radio" id="mov_todos" class="with-gap radio-col-red" checked>
+                                            <label class="m-0" for="mov_todos">Todos</label>
+
+                                            <input name="filter_movement" type="radio" id="mov_entrada" class="with-gap radio-col-red">
+                                            <label class="m-0" for="mov_entrada">Entrada</label>
+
+                                            <input name="filter_movement" type="radio" id="mov_saida" class="with-gap radio-col-red">
+                                            <label class="m-0" for="mov_saida">Saída</label>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                        <a href="#" class="btn btn-danger font-size-12 text-uppercase">Filtrar Extrato</a>
+                                    </div>
+                                </div>
+
+                                <hr class="margin-t-15">
+
+                                <div class="table-responsive">
+                                        <table id="transactions" class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th>ID Transação</th>
+                                                        <th>Tipo de Transação</th>
+                                                        <th>Descrição</th>
+                                                        <th>Hash</th>
+                                                        <th>Valor</th>
+                                                        <th>Data / Hora</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>FBR-12348-004</td>
+                                                        <td>Contrato Prog. de Investimento</td>
+                                                        <td>Contrato de @usuario</td>
+                                                        <td>12dea4....45de4</td>
+                                                        <td class="text-info">2269.8513</td>
+                                                        <td>11/05/2017 - 01:00:34</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>FBR-12348-004</td>
+                                                        <td>Pagamento Bonus Binário</td>
+                                                        <td>Contrato de @usuario</td>
+                                                        <td>12dea4....45de4</td>
+                                                        <td class="text-danger">- 2269.8513</td>
+                                                        <td>11/05/2017 - 01:00:34</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>FBR-12348-004</td>
+                                                        <td>Pagamento Bonus Mensal</td>
+                                                        <td>Contrato de @usuario</td>
+                                                        <td>12dea4....45de4</td>
+                                                        <td class="text-danger">- 2269.8513</td>
+                                                        <td>11/05/2017 - 01:00:34</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>FBR-12348-004</td>
+                                                        <td>Pagamento Bonus Diário</td>
+                                                        <td>Contrato de @usuario</td>
+                                                        <td>12dea4....45de4</td>
+                                                        <td class="text-danger">- 2269.8513</td>
+                                                        <td>11/05/2017 - 01:00:34</td>
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
+
+            <script src="/assets/vendor_components/datatable/datatables.min.js"></script>
+            <script src="/assets/vendor_components/moment/min/moment.min.js"></script>
+            <script src="/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+            <script src="/js/pages/data-table.js"></script>
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer"></footer>
+    </div>
+
+    <script>var activeMenu = 'financeiro'; </script>
+    <script src="/layout-builder.js"></script>
+</body>
+
+</html>
