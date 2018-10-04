@@ -114,6 +114,10 @@ span.btn {
   border-left: none;
 }
 
+.lh-23 {
+  line-height: 23px;
+}
+
 .logo {
   margin-right: 40px;
 }
@@ -329,10 +333,18 @@ table.dataTable.table .actions {
   padding: 20px 15px;
 }
 
+.inner-box-header.rounded {
+  border-radius: 6px 6px 0 0 !important;
+}
+
 .inner-box-body {
   border: 1px solid #D2D6DE;
   border-top: none;
   padding: 20px;
+}
+
+.inner-box-body.rounded {
+  border-radius: 0 0 6px 6px !important;
 }
 
 .row {

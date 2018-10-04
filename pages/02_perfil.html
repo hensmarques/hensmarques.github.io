@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../images/favicon.ico">
+	<script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+
+	<title>Nasdacoin Admin - Meu Perfil</title>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+	<div class="wrapper">
+
+		<header class="main-header"></header>
+		<div class="main-nav"></div>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+
+			<!-- Main content -->
+			<section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border">
+                                <h3 class="box-title">Meu Perfil</h3>
+                            </div>
+
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ul class="nav nav-pills margin-bottom margin-top-10">
+                                            <li class=" nav-item">
+                                                <a href="#dados-pessoais" class="nav-link active" data-toggle="tab" aria-expanded="false">
+                                                    <i class="mdi font-size-20 mdi-account-multiple"></i> Dados Pessoais
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#seguranca" class="nav-link" data-toggle="tab" aria-expanded="false">
+                                                    <i class="fa font-size-18 fa-unlock-alt"></i> Segurança
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#2fa" class="nav-link" data-toggle="modal" data-target="#modal-2fa">
+                                                    <i class="fa font-size-18 fa-google"></i> 2FA - Auth
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content mt-30">
+                                            <div id="dados-pessoais" class="tab-pane active">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <label for="user_name">Primeiro Nome:</label>
+                                                        <input type="text" id="user_name" class="form-control">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="user_surname">Sobrenome:</label>
+                                                        <input type="text" id="user_surname" class="form-control">
+                                                    </div>
+
+                                                    <div class="col-md-6 mt-20">
+                                                        <label for="user_email">Endereço de e-mail:</label>
+                                                        <input type="text" name="user_email" id="user_email" class="form-control">
+                                                    </div>
+
+                                                    <div class="col-md-6 mt-20">
+                                                        <label for="user_phone">Telefone de contato:</label>
+                                                        <input type="text" name="user_phone" id="user_phone" class="form-control">
+                                                    </div>
+
+                                                    <div class="col-md-6 mt-20">
+                                                        <label for="user_profile">Perfil:</label>
+                                                        <select name="user_profile" id="user_profile" class="form-control">
+                                                            <option value="0">Administrador Master</option>
+                                                            <option value="0">Administrador</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="col-md-6 mt-20">
+                                                        <label for="user_birthday">Data de Aniversário:</label>
+                                                        <input type="text" name="user_birthday" id="user_birthday" class="form-control">
+                                                    </div>
+
+                                                    <div class="col-md-12 text-right">
+                                                        <hr>
+                                                        <a href="#" class="btn btn-info">Salvar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="seguranca" class="tab-pane">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="inner-box-header rounded p-15">
+                                                            <h3 class="m-0 font-size-20 text-dark">Senha de Acesso</h3>
+                                                        </div>
+                                                        <div class="inner-box-body rounded">
+                                                            <label for="" class="mt-15">Senha Atual:</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-lock"></i>
+                                                                </div>
+                                                                <input type="password" class="form-control pull-right">
+                                                            </div>
+
+                                                            <label for="" class="mt-15">Nova Senha:</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-lock"></i>
+                                                                </div>
+                                                                <input type="password" class="form-control pull-right">
+                                                            </div>
+
+                                                            <label for="" class="mt-15">Repetir Nova Senha:</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-lock"></i>
+                                                                </div>
+                                                                <input type="password" class="form-control pull-right">
+                                                            </div>
+
+                                                            <div class="w-100p text-right mt-15">
+                                                                <a href="#" class="btn-info btn">Salvar</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="inner-box-header rounded p-15">
+                                                            <h3 class="m-0 font-size-20 text-dark">PIN de Movimentação</h3>
+                                                        </div>
+                                                        <div class="inner-box-body rounded">
+                                                            <label for="" class="mt-15">PIN Atual:</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-lock"></i>
+                                                                </div>
+                                                                <input type="text" class="form-control pull-right">
+                                                            </div>
+
+                                                            <label for="" class="mt-15">Novo PIN:</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-lock"></i>
+                                                                </div>
+                                                                <input type="text" class="form-control pull-right">
+                                                            </div>
+
+                                                            <label for="" class="mt-15">Repetir Novo PIN:</label>
+                                                            <div class="input-group date">
+                                                                <div class="input-group-addon">
+                                                                    <i class="fa fa-lock"></i>
+                                                                </div>
+                                                                <input type="text" class="form-control pull-right">
+                                                            </div>
+
+                                                            <div class="w-100p text-right mt-15">
+                                                                <a href="#" class="btn-info btn">Salvar</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+
+                            <div class="modal center-modal fade" id="modal-2fa" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-teal">Google Authenticator</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="callout callout-success mb-10 p-10">
+                                                2FA is currently enabled for your account.
+                                            </div>
+
+                                            <p>If you are looking to disable Two Factor Authentication, please confirm your password and click Disable F2A button.</p>
+
+                                            <label for="2fa_password">Senha Atual: </label>
+                                            <div class="d-flex">
+                                                <div class="input-group date">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-lock"></i>
+                                                    </div>
+                                                    <input type="password" class="form-control pull-right" id="2fa_password">
+                                                </div>
+                                                <a href="#" class="btn btn-info ml-10 pb-1 pt-5 lh-23">Disable 2FA</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
+
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer"></footer>
+    </div>
+
+    <script>var activeMenu = 'minha-conta'; </script>
+    <script src="/layout-builder.js"></script>
+</body>
+</html>
