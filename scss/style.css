@@ -335,6 +335,10 @@ table.dataTable.table .actions {
   padding: 20px;
 }
 
+.row {
+  width: 100%;
+}
+
 body .wrapper {
   background-color: #f5f7fa !important;
 }
