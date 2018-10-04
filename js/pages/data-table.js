@@ -11,7 +11,7 @@ $(function () {
         'lengthChange': false,
     });
 
-    $('#transactions, #logs, #payment-day-table').DataTable({
+    $('#transactions, #logs, #payment-day-table, #nsd-wallets-table, #btc-wallets-table').DataTable({
       'paging'      : true,
       'lengthChange': false,
       'searching'   : false,
