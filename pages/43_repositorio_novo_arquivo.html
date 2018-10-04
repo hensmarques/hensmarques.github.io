@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../images/favicon.ico">
+	<script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+
+	<title>Nasdacoin Admin - Repositório</title>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+	<div class="wrapper">
+
+		<header class="main-header"></header>
+		<div class="main-nav"></div>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+
+			<!-- Main content -->
+			<section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border p-30">
+                                <h3 class="box-title">Repositório de Arquivos</h3>
+                            </div>
+                            <div class="box-header with-border p-30">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="font-size-16 font-weight-300 mt-10 text-lighter">Cadastrar novo arquivo</p>
+                                    </div>
+
+                                    <div class="col-md-6 text-right">
+                                        <a href="/pages/42_repositorio.html" class="btn btn-info">Voltar Repositório</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <label for="file_name">Nome do Arquivo:</label>
+                                        <input type="text" id="file_name" class="form-control">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <label for="file_description">Descrição do Arquivo:</label>
+                                        <input type="text" id="file_description" class="form-control">
+                                    </div>
+
+                                    <div class="col-md-6 mt-20">
+                                        <label for="file_category">Categoria:</label>
+                                        <select name="file_category" id="file_category" class="form-control">
+                                            <option value="0">Category 1</option>
+                                            <option value="0">Category 2</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 mt-20">
+                                        <label for="file_subcategory">Subcategoria:</label>
+                                        <select name="file_subcategory" id="file_subcategory" class="form-control">
+                                            <option value="0">Subcategory 1</option>
+                                            <option value="0">Subcategory 2</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-5 mt-20">
+                                        <label for="file_file">Arquivo</label>
+                                        <br>
+                                        <input type="file" id="file_file">
+                                        <p class="font-weight-300">O arquivo deverá ter no máximo 200mb</p>
+                                    </div>
+                                    <div class="col-md-7 mt-20">
+                                        <label for="file_image">Imagem do Arquivo</label>
+                                        <br>
+                                        <input type="file" id="file_image">
+                                        <p class="font-weight-300">O arquivo deverá ter no máximo 200mb</p>
+                                    </div>
+
+                                    <div class="col-md-12 text-right">
+                                        <hr>
+                                        <a href="#" class="btn btn-green">Enviar Arquivo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
+
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer"></footer>
+    </div>
+
+    <script>var activeMenu = 'repositorio'; </script>
+    <script src="/layout-builder.js"></script>
+</body>
+</html>
