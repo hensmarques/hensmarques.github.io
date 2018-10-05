@@ -1,6 +1,5 @@
-.bd-radius-50p{
-    border-radius: 50%;
-}
+.bd-radius-50p{ border-radius: 50%; }
+.bd-radius-5{ border-radius: 5px; }
 
 .margin-r-15{ margin-right: 15px; }
 .margin-t-5{ margin-top: 5px; }
@@ -29,6 +28,9 @@ span.btn{ cursor: auto !important; padding: 5px 7px; }
 .w-100{ width: 100px; }
 .w-100p{ width: 100%; }
 .mw-100p{ max-width: 100% !important; }
+.mw-150{ max-width: 150px !important; }
+.minw-150{ min-width: 150px !important; }
+.mh-30{ max-height: 30px !important; }
 .h-100p{ height: 100%; }
 .op-7{ opacity: 0.7; }
 
