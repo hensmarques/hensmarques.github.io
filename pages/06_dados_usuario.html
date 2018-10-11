@@ -20,6 +20,8 @@
 
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
+            <link rel="stylesheet" href="../..//assets/vendor_components/bootstrap-daterangepicker/daterangepicker.css">
+            <link rel="stylesheet" href="../..//assets/vendor_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
 
 			<!-- Main content -->
 			<section class="content">
@@ -223,7 +225,7 @@
                                                     </div>
 
                                                     <div class="w-100p text-right mt-15">
-                                                        <a href="#" class="btn-info btn btn-block btn-sm">Salvar Nova Senha</a>
+                                                        <a href="#" class="btn-info btn btn-block btn-sm" data-toggle="modal" data-target="#modal-salvar-nova-senha">Salvar Nova Senha</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -235,18 +237,18 @@
                                                     </h5>
 
                                                     <div class="w-100p text-right mt-15">
-                                                        <a href="#" class="btn-green btn-block btn-sm btn">Resetar Pin de Segurança</a>
+                                                        <a href="#" class="btn-green btn-block btn-sm btn" data-toggle="modal" data-target="#modal-pin">Resetar Pin de Segurança</a>
                                                     </div>
                                                 </div>
 
-                                                 <div class="inner-box rounded">
+                                                <div class="inner-box rounded">
                                                     <h5 class="m-0 font-weight-300 text-dark d-flex align-items-center">
                                                         <span class="mdi mdi-key-variant op-7 font-size-20 margin-r-5"></span>
                                                         Resetar 2FA
                                                     </h5>
 
                                                     <div class="w-100p text-right mt-15">
-                                                        <a href="#" class="btn-green btn-block btn-sm btn">Resetar 2FA</a>
+                                                        <a href="#" class="btn-green btn-block btn-sm btn" data-toggle="modal" data-target="#modal-2fa">Resetar 2FA</a>
                                                     </div>
                                                 </div>
 
@@ -260,18 +262,18 @@
                                                     </h5>
 
                                                     <div class="w-100p text-right mt-15">
-                                                        <a href="#" class="btn-teal btn-block btn-sm btn">Resetar Palavras</a>
+                                                        <a href="#" class="btn-teal btn-block btn-sm btn" data-toggle="modal" data-target="#modal-palavra">Resetar Palavras</a>
                                                     </div>
                                                 </div>
 
-                                                 <div class="inner-box rounded">
+                                                <div class="inner-box rounded">
                                                     <h5 class="m-0 font-weight-300 text-dark d-flex align-items-center">
                                                         <span class="mdi mdi-laptop-mac op-7 font-size-20 margin-r-5"></span>
                                                         Desconectar Dispositivos
                                                     </h5>
 
                                                     <div class="w-100p text-right mt-15">
-                                                        <a href="#" class="btn-danger btn-block btn-sm btn">Desconectar Todos</a>
+                                                        <a href="#" class="btn-danger btn-block btn-sm btn" data-toggle="modal" data-target="#modal-dispositivos">Desconectar Todos</a>
                                                     </div>
                                                 </div>
 
@@ -281,36 +283,300 @@
                                     </div>
                                 </div>
 
+                                <div id="exchange" class="tab-pane">
+                                    <div class="box-body p-30">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="inner-box-header rounded">
+                                                    <h5 class="m-0 d-flex align-items-center"><i class="fa fa-cloud-upload font-size-24 margin-r-5"></i> Buy Orders</h5>
+                                                </div>
+                                                <div class="inner-box-body">
+                                                    <div class="table-responsive">
+                                                        <table id="users" class="table table-hover">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>PRICE (BTC)</th>
+                                                                    <th>VALUE (BTC)</th>
+                                                                    <th>TOTAL (NSD)</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-green">0.0000587</td>
+                                                                    <td>0.09864663</td>
+                                                                    <td>44589.45646</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-green">0.0000587</td>
+                                                                    <td>0.09864663</td>
+                                                                    <td>44589.45646</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-green">0.0000587</td>
+                                                                    <td>0.09864663</td>
+                                                                    <td>44589.45646</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="inner-box-header rounded">
+                                                    <h5 class="m-0 d-flex align-items-center"><i class="fa fa-cloud-download font-size-24 margin-r-5"></i> Sell Orders</h5>
+                                                </div>
+                                                <div class="inner-box-body">
+                                                    <div class="table-responsive">
+                                                        <table id="users" class="table table-hover">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>PRICE (BTC)</th>
+                                                                    <th>VALUE (BTC)</th>
+                                                                    <th>TOTAL (NSD)</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-danger">0.0000587</td>
+                                                                    <td>0.09864663</td>
+                                                                    <td>44589.45646</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-danger">0.0000587</td>
+                                                                    <td>0.09864663</td>
+                                                                    <td>44589.45646</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-danger">0.0000587</td>
+                                                                    <td>0.09864663</td>
+                                                                    <td>44589.45646</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12 mt-30">
+                                                <div class="inner-box-header rounded">
+                                                    <h5 class="m-0 d-flex align-items-center">
+                                                        <i class="fa fa-cloud-download font-size-24 margin-r-5"></i>
+                                                        <span class="margin-r-15">Historical Orders</span>
+
+                                                        <a href="#" class="btn btn-gray margin-r-15">Orders History</a>
+                                                        <a href="#" class="btn btn-warning">Open Orders</a>
+                                                    </h5>
+                                                </div>
+                                                <div class="inner-box-body">
+                                                    <div class="table-responsive">
+                                                        <table id="users" class="table table-hover">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>TYPE</th>
+                                                                    <th>ORDER ID</th>
+                                                                    <th>PRICE (BTC)</th>
+                                                                    <th>TOTAL (BTC)</th>
+                                                                    <th>TOTAL (NSD)</th>
+                                                                    <th>STATUS</th>
+                                                                    <th>ACTIONS</th>
+                                                                    <th>TIMESTAMP</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>NSD > BTC</td>
+                                                                    <td class="text-info">0569-HJKL-FGH</td>
+                                                                    <td>0.0000587</td>
+                                                                    <td>984</td>
+                                                                    <td>0.989363</td>
+                                                                    <td class="text-green">EXECUTADA</td>
+                                                                    <td><a href="#" class="text-danger">CANCEL</a></td>
+                                                                    <td>25-08-2018 12:25:26</td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>NSD > BTC</td>
+                                                                    <td class="text-info">0569-HJKL-FGH</td>
+                                                                    <td>0.0000587</td>
+                                                                    <td>984</td>
+                                                                    <td>0.989363</td>
+                                                                    <td class="text-warning">PARTIAL 5%</td>
+                                                                    <td><a href="#" class="text-danger">CANCEL</a></td>
+                                                                    <td>25-08-2018 12:25:26</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="logs" class="tab-pane">
+                                    <div class="box-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label for="filter_date"><strong>Selecione o Período</strong></label>
+                                                <div class="input-group date">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-calendar"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control pull-right" id="filter_date">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-5">
+                                                <label for=""><strong>Gerar log de qual módulo?</strong></label>
+                                                <div class="d-flex justify-content-between">
+                                                    <input name="filter_module" type="radio" id="mod_exchange" class="with-gap radio-col-red" checked>
+                                                    <label for="mod_exchange">Exchange</label>
+
+                                                    <input name="filter_module" type="radio" id="mod_wallets" class="with-gap radio-col-red">
+                                                    <label for="mod_wallets">Wallets</label>
+
+                                                    <input name="filter_module" type="radio" id="mod_seguranca" class="with-gap radio-col-red">
+                                                    <label for="mod_seguranca">Segurança</label>
+
+                                                    <input name="filter_module" type="radio" id="mod_geral" class="with-gap radio-col-red">
+                                                    <label for="mod_geral">Geral</label>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                                                <a href="#" class="btn btn-danger btn-block font-size-12 text-uppercase p-5 mt-10">Gerar Relatorio</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="table-responsive">
+                                            <table id="Logs" class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Gerado por</th>
+                                                        <th>Descrição</th>
+                                                        <th>Data</th>
+                                                        <th>Tipo</th>
+                                                        <th>Log</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><a href="#" class="text-info">Usuário</a></td>
+                                                        <td>Solicitou lembrete de senha</td>
+                                                        <td>11/05/2017 - 01:00:34</td>
+                                                        <td>Login</td>
+                                                        <td><a href="#" class="text-info">LOG003805353</a></td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <script src="/assets/vendor_components/moment/min/moment.min.js"></script>
+                                    <script src="/assets/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+                                </div>
                             </div>
 
 
-
-                            <div class="modal center-modal fade" id="modal-2fa" tabindex="-1">
+                            <div class="modal center-modal fade" id="modal-salvar-nova-senha" tabindex="-1">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title text-teal">Google Authenticator</h5>
+                                            <h5 class="modal-title text-teal">Alteração de Senha</h5>
                                             <button type="button" class="close" data-dismiss="modal">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
+
                                         <div class="modal-body">
-
-                                            <div class="callout callout-success mb-10 p-10">
-                                                2FA is currently enabled for your account.
-                                            </div>
-
-                                            <p>If you are looking to disable Two Factor Authentication, please confirm your password and click Disable F2A button.</p>
-
-                                            <label for="2fa_password">Senha Atual: </label>
+                                            <div class="callout callout-danger mb-10 p-10">Atenção, será solicitado ao usuário que crie uma nova senha.</div>
+                                            <label class="font-size-12" for="modal-password">PARA CONFIRMAR A ALTERAÇÃO DA SENHA, DIGITE O SEU PIN DE SEGURANÇA: </label>
                                             <div class="d-flex">
                                                 <div class="input-group date">
                                                     <div class="input-group-addon">
                                                         <i class="fa fa-lock"></i>
                                                     </div>
-                                                    <input type="password" class="form-control pull-right" id="2fa_password">
+                                                    <input type="password" class="form-control pull-right" id="modal-password">
                                                 </div>
-                                                <a href="#" class="btn btn-info ml-10 pb-1 pt-5 lh-23">Disable 2FA</a>
+                                                <a href="#" class="btn btn-info ml-10 pb-1 pt-5 lh-23">OK</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal center-modal fade" id="modal-2fa" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-teal">Restauração de 2FA</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="callout callout-green mb-10 p-10 d-flex justify-content-between">
+                                                <span>2FA RESETADO COM SUCESSO</span>
+                                                <span>#LOG0988819212</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal center-modal fade" id="modal-pin" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-teal">Restauração de PIN</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="callout callout-green mb-10 p-10 d-flex justify-content-between">
+                                                <span>PIN RESETADO COM SUCESSO</span>
+                                                <span>#LOG0988819212</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal center-modal fade" id="modal-palavra" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-teal">Restauração de Palavras</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="callout callout-success mb-10 p-10 d-flex justify-content-between">
+                                                <span>PALAVRAS RESETADAS COM SUCESSO</span>
+                                                <span>#LOG0988819212</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal center-modal fade" id="modal-dispositivos" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-teal">Desconectar Dispositivos</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="callout callout-danger mb-10 p-10 d-flex justify-content-between">
+                                                <span>OS DISPOSITIVOS FORAM DESCONECTADOS</span>
+                                                <span>#LOG0988819212</span>
                                             </div>
                                         </div>
                                     </div>

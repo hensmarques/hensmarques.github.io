@@ -51,13 +51,24 @@
   color: #FFFFFF;
 }
 
-.btn-green {
+.btn-green, .btn-green:hover, .btn-green:active {
   background-color: #20CDA6;
   color: white;
 }
 
-.btn-teal {
+.btn-teal, .btn-teal:hover, .btn-teal:active {
   background-color: #2995A6;
+  color: white;
+}
+
+.btn-gray, .btn-gray:hover, .btn-gray:active {
+  color: #5F7C96;
+  background: #CBD4DD;
+}
+
+.callout-green {
+  background-color: #20CDA6;
+  border-color: #20CDA6;
   color: white;
 }
 
