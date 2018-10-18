@@ -21,3 +21,8 @@ function fetchLayoutPart(part){
         }
     });
 }
+
+function tabOutsideNav(target){
+    $('.nav-item [href="'+target+'"]').trigger('click');
+
+}

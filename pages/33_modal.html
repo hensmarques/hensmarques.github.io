@@ -21,6 +21,8 @@
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
             <link rel="stylesheet" href="/assets/vendor_components/bootstrap-switch/switch.css">
+            <link rel="stylesheet" href="/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+            <link rel="stylesheet" href="/assets/vendor_components/select2/dist/css/select2.min.css">
 
 
 			<!-- Main content -->
@@ -39,6 +41,9 @@
                                         <a href="#notificacoes" class="nav-link" data-toggle="tab" aria-expanded="false">
                                             <i class="mdi font-size-20 mdi-bell-outline"></i> Notificação
                                         </a>
+                                    </li>
+                                    <li class="nav-item hide"> <!-- o hide é importante pra que o data-toggle="tab" do botão de nova notificação funcione fora do nav -->
+                                        <a href="#nova-notificacao" class="nav-link" data-toggle="tab" aria-expanded="false"> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -93,7 +98,7 @@
                                 <div id="notificacoes" class="tab-pane">
                                     <div class="box-header with-border p-30">
                                         <h3 class="box-title">Notificação</h3>
-                                        <a href="#nova-notificacao" class="btn btn-info" data-toggle="tab" aria-expanded="false">Nova Notificação</a>
+                                        <a href="#" onclick="tabOutsideNav('#nova-notificacao')" class="btn btn-info" aria-expanded="false">Nova Notificação</a>
                                     </div>
 
                                     <!-- /.box-header -->
@@ -129,6 +134,46 @@
                                     </div>
                                 </div>
 
+                                <div id="nova-notificacao" class="tab-pane">
+                                    <div class="box-header with-border p-30">
+                                        <h3 class="box-title">Nova Notificação</h3>
+                                        <a href="#" onclick="tabOutsideNav('#notificacoes')" class="btn btn-info" aria-expanded="false">Voltar para Notificações</a>
+                                    </div>
+
+                                    <div class="box-body">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label for="notif_name">Nome da Notificação</label>
+                                                <input type="text" class="form-control" id="notif_name">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <label for="notif_name">Título da Notificação</label>
+                                                <input type="text" class="form-control" id="notif_name">
+                                            </div>
+                                            <div class="col-md-12 mt-30">
+                                                <form>
+                                                    <textarea class="textarea" placeholder="Place some text here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                                </form>
+                                            </div>
+                                            <div class="col-md-3 mt-30">
+                                                <label for="">Para qual usuário</label>
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">@Alabama</option>
+                                                    <option>@Alaska</option>
+                                                    <option>@California</option>
+                                                    <option>@Delaware</option>
+                                                    <option>@Tennessee</option>
+                                                    <option>@Texas</option>
+                                                    <option>@Washington</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-9 mt-30">
+                                                <a href="#" class="btn btn-green mt-25 pr-30 pl-30 pt-5 pb-5">Publicar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <!-- /.box-body -->
 
@@ -145,6 +190,15 @@
     </div>
 
     <script>var activeMenu = 'comunicacao'; </script>
+    <script src="/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
+	<script src="/assets/vendor_components/select2/dist/js/select2.full.js"></script>
+
+    <script>
+    	setTimeout(function(){
+            $('.textarea').wysihtml5();
+            $('.select2').select2();
+        }, 3000)
+    </script>
     <script src="/layout-builder.js"></script>
 </body>
 </html>
