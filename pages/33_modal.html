@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../images/favicon.ico">
+	<script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+
+	<title>Nasdacoin Admin - Meu Perfil</title>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+	<div class="wrapper">
+
+		<header class="main-header"></header>
+		<div class="main-nav"></div>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+            <link rel="stylesheet" href="/assets/vendor_components/bootstrap-switch/switch.css">
+
+
+			<!-- Main content -->
+			<section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border p-30">
+                                <ul class="nav nav-pills margin-bottom margin-top-10">
+                                    <li class="nav-item">
+                                        <a href="#modal" class="nav-link active" data-toggle="tab" aria-expanded="false">
+                                            <i class="mdi font-size-20 mdi-monitor"></i> Modal
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#notificacoes" class="nav-link" data-toggle="tab" aria-expanded="false">
+                                            <i class="mdi font-size-20 mdi-bell-outline"></i> Notificação
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content">
+                                <div id="modal" class="tab-pane active">
+                                    <div class="box-header with-border p-30">
+                                        <h3 class="box-title">Modais</h3>
+                                        <a href="#nova-modal" class="btn btn-info" data-toggle="tab" aria-expanded="false">Nova Modal</a>
+                                    </div>
+
+                                    <!-- /.box-header -->
+                                    <div class="box-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table id="Logs" class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Nome do Modal</th>
+                                                                <th>Mensagem</th>
+                                                                <th>Página Ativa</th>
+                                                                <th>Criado em</th>
+                                                                <th>Ações</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Coinmarketup</td>
+                                                                <td>lorem ipsum dolor sit amet</td>
+                                                                <td>Exchange</td>
+                                                                <td class="text-info">11/05/2017 - 01:00:34</td>
+                                                                <td>
+                                                                    <a href="#" class="text-teal font-size-26"> <i class="mdi mdi-pencil-box-outline"></i> </a>
+                                                                    <a href="#" class="text-danger font-size-26"> <i class="mdi mdi-delete"></i> </a>
+                                                                    <a href="#" class="text-teal font-size-26">
+                                                                        <button type="button" class="btn btn-sm btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                                                            <div class="handle"></div>
+                                                                        </button>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="notificacoes" class="tab-pane">
+                                    <div class="box-header with-border p-30">
+                                        <h3 class="box-title">Notificação</h3>
+                                        <a href="#nova-notificacao" class="btn btn-info" data-toggle="tab" aria-expanded="false">Nova Notificação</a>
+                                    </div>
+
+                                    <!-- /.box-header -->
+                                    <div class="box-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table id="Logs" class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Nome da Notificação</th>
+                                                                <th>Mensagem</th>
+                                                                <th>Criado em</th>
+                                                                <th>Ações</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Coinmarketup</td>
+                                                                <td>lorem ipsum dolor sit amet</td>
+                                                                <td class="text-info">11/05/2017 - 01:00:34</td>
+                                                                <td>
+                                                                    <a href="#" class="text-teal font-size-26"> <i class="mdi mdi-pencil-box-outline"></i> </a>
+                                                                    <a href="#" class="text-danger font-size-26"> <i class="mdi mdi-delete"></i> </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /.box-body -->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
+
+        </div>
+        <!-- /.content-wrapper -->
+
+        <footer class="main-footer"></footer>
+    </div>
+
+    <script>var activeMenu = 'comunicacao'; </script>
+    <script src="/layout-builder.js"></script>
+</body>
+</html>
