@@ -451,6 +451,21 @@ table.dataTable.table .actions {
   margin-bottom: 15px;
 }
 
+.breadcrumb i {
+  line-height: 0;
+  margin-right: 5px;
+}
+
+.breadcrumb i.mdi {
+  font-size: 24px;
+  vertical-align: -4px;
+}
+
+.breadcrumb i.fa {
+  font-size: 20px;
+  vertical-align: -2px;
+}
+
 .select2-container--default.select2-container--focus, .select2-container--default:active, .select2-container--default:focus, .select2-selection.select2-container--focus, .select2-selection:active, .select2-selection:focus {
   outline: 0 !important;
 }

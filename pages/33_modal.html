@@ -20,6 +20,13 @@
 
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
+            <section class="content-header">
+                <h1> &nbsp; </h1>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><i class="mdi mdi-comment-processing-outline"></i> Admin</a></li>
+                    <li class="breadcrumb-item active">Comunicação</li>
+                </ol>
+            </section>
             <link rel="stylesheet" href="/assets/vendor_components/bootstrap-switch/switch.css">
             <link rel="stylesheet" href="/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
             <link rel="stylesheet" href="/assets/vendor_components/select2/dist/css/select2.min.css">
@@ -194,11 +201,12 @@
 	<script src="/assets/vendor_components/select2/dist/js/select2.full.js"></script>
 
     <script>
-    	setTimeout(function(){
+        setTimeout(function(){
             $('.textarea').wysihtml5();
             $('.select2').select2();
         }, 3000)
     </script>
+    <script>var activeMenu = 'comunicacao'; </script>
     <script src="/layout-builder.js"></script>
 </body>
 </html>
