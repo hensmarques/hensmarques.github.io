@@ -434,6 +434,12 @@ table.dataTable.table .actions {
   right: -5px;
 }
 
+.callout-leafgreen {
+  background-color: #b9ec7d;
+  color: #447700;
+  border: none;
+}
+
 body .wrapper {
   background-color: #f5f7fa !important;
 }
