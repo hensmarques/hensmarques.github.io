@@ -100,6 +100,10 @@ span.btn {
   max-width: 100% !important;
 }
 
+.mw-200 {
+  max-width: 200px !important;
+}
+
 .mw-150 {
   max-width: 150px !important;
 }
@@ -265,7 +269,7 @@ table.dataTable.table .actions {
   .box-header > .box-tools, .box-header > .box-control, .box-header > .box-controls {
     position: initial;
   }
-  .box-header .btn {
+  .box-header .btn:not(.btn-toggle) {
     min-width: 175px;
   }
   .box-header .form-control {
@@ -438,6 +442,13 @@ table.dataTable.table .actions {
   background-color: #b9ec7d;
   color: #447700;
   border: none;
+}
+
+.module {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 15px;
 }
 
 .select2-container--default.select2-container--focus, .select2-container--default:active, .select2-container--default:focus, .select2-selection.select2-container--focus, .select2-selection:active, .select2-selection:focus {

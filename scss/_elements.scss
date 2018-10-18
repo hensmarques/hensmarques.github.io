@@ -25,7 +25,7 @@ table.dataTable.table {
             position: initial;
         }
 
-        .btn{ min-width: 175px; }
+        .btn:not(.btn-toggle){ min-width: 175px; }
         .form-control{ max-width: 150px; }
     }
 }
@@ -163,6 +163,12 @@ table.dataTable.table {
     border: none;
 }
 
+.module{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 15px;
+}
 
 
 

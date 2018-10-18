@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../images/favicon.ico">
+	<script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
+
+	<title>Nasdacoin Admin - Meu Perfil</title>
+</head>
+
+<body class="hold-transition skin-blue layout-top-nav">
+	<div class="wrapper">
+
+		<header class="main-header"></header>
+		<div class="main-nav"></div>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+            <link rel="stylesheet" href="/assets/vendor_components/bootstrap-switch/switch.css">
+            <link rel="stylesheet" href="/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+            <link rel="stylesheet" href="/assets/vendor_components/select2/dist/css/select2.min.css">
+
+
+			<!-- Main content -->
+			<section class="content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box">
+                            <div class="box-header with-border p-30">
+                                <ul class="nav nav-pills margin-bottom margin-top-10">
+                                    <li class="nav-item">
+                                        <a href="#idiomas" class="nav-link active" data-toggle="tab" aria-expanded="false">
+                                            <i class="font-size-20 fa fa-globe"></i> Idiomas
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#manutencao" class="nav-link" data-toggle="tab" aria-expanded="false">
+                                            <i class="fa font-size-20 fa-calendar"></i> Manutenção
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#administradores" class="nav-link" data-toggle="tab" aria-expanded="false">
+                                            <i class="mdi mdi-account-multiple-plus font-size-20"></i> Administradores
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item hide"> <!-- o hide é importante pra que o data-toggle="tab" do botão de nova notificação funcione fora do nav -->
+                                        <a href="#novo-administrador" class="nav-link" data-toggle="tab" aria-expanded="false"> </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content">
+
+                                <div id="idiomas" class="tab-pane active">
+                                    <div class="box-header with-border p-30">
+                                        <h3 class="box-title">Lista de Idiomas</h3>
+                                        <div>
+                                            <a href="#" class="btn btn-green margin-r-5" aria-expanded="false">Gerar Arquivo</a>
+                                            <a href="#" data-toggle="modal" data-target="#novo-idioma" class="btn btn-info" aria-expanded="false">Novo Idioma</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- /.box-header -->
+                                    <div class="box-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table id="Logs" class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Sigla</th>
+                                                                <th>Bandeira</th>
+                                                                <th>Criado em</th>
+                                                                <th>Qtd. de Variáveis</th>
+                                                                <th>Ações</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>PT-BR</td>
+                                                                <td><img src="" alt=""></td>
+                                                                <td>11/05/2017 - 01:00:34</td>
+                                                                <td>223</td>
+                                                                <td>
+                                                                    <a href="#" class="text-teal font-size-26"> <i class="mdi mdi-pencil-box-outline"></i> </a>
+                                                                    <a href="#" class="text-danger font-size-26"> <i class="mdi mdi-delete"></i> </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="manutencao" class="tab-pane">
+                                    <div class="box-header with-border p-30">
+                                        <h3 class="box-title">
+                                            Mensagem de Manutenção
+                                            <button type="button" class="ml-5 btn btn-sm btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                                <div class="handle"></div>
+                                            </button>
+                                        </h3>
+                                    </div>
+
+                                    <div class="box-body">
+                                        <div class="row">
+
+                                            <div class="col-md-12 mt-30">
+                                                <form>
+                                                    <textarea class="textarea" placeholder="Place some text here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                                </form>
+                                            </div>
+
+                                            <div class="col-md-12 mt-30 text-right">
+                                                <a href="#" class="btn btn-info pr-30 pl-30 text-uppercase font-size-12">Salvar Texto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="administradores" class="tab-pane">
+                                    <div class="box-header with-border p-30">
+                                        <h3 class="box-title">Administradores do Sistema</h3>
+                                        <div>
+                                            <a href="#" onclick="tabOutsideNav('#novo-administrador')" class="btn btn-info" aria-expanded="false">Novo Administrador</a>
+                                        </div>
+                                    </div>
+
+                                    <!-- /.box-header -->
+                                    <div class="box-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table id="Logs" class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Nome</th>
+                                                                <th>Moderação</th>
+                                                                <th>Login</th>
+                                                                <th>Qtd. de Logs</th>
+                                                                <th>Ações</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Tiago Batista</td>
+                                                                <td>Admin Master</td>
+                                                                <td>nasdacoin</td>
+                                                                <td>22</td>
+                                                                <td>
+                                                                    <a href="#" class="text-teal font-size-26"> <i class="mdi mdi-pencil-box-outline"></i> </a>
+                                                                    <a href="#" class="text-danger font-size-26"> <i class="mdi mdi-delete"></i> </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="novo-administrador" class="tab-pane">
+                                    <div class="box-header with-border p-30">
+                                        <h3 class="box-title"> Adicionar Novo Administrador </h3>
+                                    </div>
+                                    <div class="box-header with-border p-30 justify-content-start ">
+                                        <label class="text-uppercase mr-20"> SELECIONE O USUÁRIO PARA DAR CREDENCIAIS <br>DE ADMINISTRAÇÃO: </label>
+                                        <input type="text" class="form-control mw-200" placeholder="Digite o nome do usuário">
+                                    </div>
+
+                                    <div class="box-body p-30">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h5><strong>Módulos de Acesso</strong></h5>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_21">Dashboard</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_24" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_23">Minha Conta</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_24" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_24">Usuários</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_22">Financeiro</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_25" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_25">Wallets</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_26" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_26">Comunicação</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_27" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_27">Configurações</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_28" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_28">Repositório</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="module">
+                                                    <input type="checkbox" id="md_checkbox_29" class="filled-in chk-col-teal" checked="">
+                                                    <label for="md_checkbox_29">Selecionar Todos</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 mt-30 text-right">
+                                            <a href="#" class="btn btn-green pr-30 pl-30 text-uppercase font-size-12">Adicionar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.content -->
+
+        <div class="modal center-modal fade" id="novo-idioma" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-teal">Novo Idioma</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="">Nome do Idioma</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="">Sigla do Idioma</label><input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-12 mt-15">
+                                <label for="">Bandeira do Idioma</label><br>
+                                <input type="file">
+                                <p class="m-0"><small>O tamanho do arquivo deve ser 30x30 e menor que 20kb</small></p>
+                            </div>
+                            <div class="col-md-12 mt-15">
+                                <label for="">Arquivo do Idioma</label><br>
+                                <input type="file">
+                            </div>
+                            <div class="col-md-12 text-right mt-15">
+                                <a href="#" data-dismiss="modal" class="btn btn-info">Add Idioma</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.content-wrapper -->
+
+    <footer class="main-footer"></footer>
+</div>
+
+<script src="/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
+<script src="/assets/vendor_components/select2/dist/js/select2.full.js"></script>
+
+<script>
+    setTimeout(function(){
+        $('.textarea').wysihtml5();
+        $('.select2').select2();
+    }, 3000)
+</script>
+<script src="/layout-builder.js"></script>
+</body>
+</html>
