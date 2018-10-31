@@ -737,4 +737,10 @@ body .wrapper {
   width: 40px;
   height: 40px;
 }
+
+.card-icon.small {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
 /*# sourceMappingURL=style.css.map */
