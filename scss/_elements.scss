@@ -20,6 +20,15 @@ table.dataTable.table {
     align-items: center;
 
 
+    @include mobile{
+        flex-wrap: wrap;
+
+        >.box-tools, > .box-control, > .box-controls{
+            min-width: 100%;
+            position: relative;
+        }
+    }
+
     @media screen and (min-width: 1025px){
         >.box-tools, > .box-control, > .box-controls{
             position: initial;
@@ -85,10 +94,48 @@ table.dataTable.table {
 }
 
 .nav-pills{
+
+    @include mobile{
+        flex-direction: column;
+        max-height: 36px;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        position: relative;
+        margin-bottom: 10px;
+        width: 100%;
+
+        &:after{
+            content: '+';
+            position: absolute;
+            right: 20px;
+            top: 4px;
+            color: white;
+            font-size: 18px;
+            background: #00000026;
+            padding: 0px 9px;
+            border-radius: 4px;
+        }
+
+        &.active{
+            max-height: initial !important;
+
+            &:after{ content: '-'; }
+        }
+    }
+
     .nav-item{
         background: #CBD4DD;
         border-radius: 5px;
         margin-right: 15px;
+
+        @include mobile{
+            margin-bottom: 5px;
+            order: 1;
+
+            &.active{ order: 0 }
+
+            a{ justify-content: flex-start; }
+        }
 
         .active{ background-color: #4A90E2; }
         .active img, .active i{ filter: invert(100%); opacity: 1; }

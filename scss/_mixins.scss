@@ -83,3 +83,42 @@ span.btn{ cursor: auto !important; padding: 5px 7px; }
         a{ justify-content: center; }
     }
 }
+
+$tablet-width: 769px;
+$desktop-width: 1025px;
+
+@mixin mobile {
+    @media (max-width: #{$tablet-width - 1px}) {
+      @content;
+    }
+  }
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@include mobile{
+    .mb-sm-25{
+        margin-bottom: 25px;
+    }
+
+    .sm-ml-0{
+        margin-left: 0 !important;
+    }
+
+    .mt-sm-15{
+        margin-top: 15px !important;
+    }
+
+    .sm-mt-10{
+        margin-top: 10px !important;
+    }
+}

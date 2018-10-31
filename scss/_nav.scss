@@ -1,7 +1,17 @@
 .logo {
-    margin-right: 40px;
+    padding-right: 0;
 
-    img{ width: 45px; }
+    @include desktop{
+        margin-right: 40px;
+    }
+
+    img{
+        width: 45px;
+
+        @include mobile{
+            width: 35px;
+        }
+    }
 }
 
 .main-nav{
@@ -24,6 +34,32 @@
     justify-content: space-between;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 
+    @include mobile{
+        margin-left: 0;
+        overflow-x: auto;
+
+        // &:after {
+        //     content: '>';
+        //     position: absolute;
+        //     color: white;
+        //     right: 0px;
+        //     padding: 20px 20px 20px 40px;
+        //     height: 100%;
+        //     line-height: 1;
+        //     background: -webkit-gradient(linear, left top, right top, from(#0d072500), to(#67acd7));
+        //     background: linear-gradient(to right, #0d072500, #67acd7);
+        // }
+
+        & > div{
+            min-width: 100px;
+            padding-left: 15px;
+
+            &:first-child {
+                padding-left: 0px;
+            }
+        }
+    }
+
     div:first-child {
         border-right: 1px solid rgba(255, 255, 255, 0.1);
         padding-right: 15px;
@@ -38,4 +74,18 @@
 
 .skin-blue .main-header  {
     background: linear-gradient(90deg, #2D4056 0%, #141E2B 100%);
+}
+
+@include mobile{
+    .main-header .sidebar-toggle{
+        padding: 20px 10px;
+    }
+
+    .content-header h1{
+        display: none;
+    }
+
+    .btn.btn-yellow.minw-150{
+        min-width: auto !important;
+    }
 }

@@ -15,7 +15,31 @@
 
 	<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 	<script>
-	  $.widget.bridge('uibutton', $.ui.button);
+		$.widget.bridge('uibutton', $.ui.button);
+
+		$('.nav-pills').click(function(){
+			if($(this).hasClass('active'))
+				$(this).removeClass('active');
+			else
+				$(this).addClass('active');
+		});
+
+		$('.nav-pills .nav-item').click(function(){
+			console.log('li',$(this).find('a').first().data('toggle'));
+			if($(this).find('a').first().data('toggle') == 'tab'){
+				$('.nav-pills .nav-item').removeClass('active');
+				$(this).addClass('active');
+			}
+		});
+
+		$('.nav-pills .nav-item a').click(function(){
+			console.log('a',$(this).find('a').first().data('toggle'));
+
+			if($(this).data('toggle') == 'tab'){
+				$('.nav-pills .nav-item').removeClass('active');
+				$(this).parents('.nav-item').addClass('active');
+			}
+		});
 	</script>
 
 	<!-- popper -->
