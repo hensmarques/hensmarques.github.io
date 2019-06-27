@@ -11,11 +11,15 @@
 <body>
     <header>
         <div class="row">
-            <div class="column large-3 justify-center">
+            <div class="column small-1 hide-for-large">
+                <a href="javascript:void(0);" onclick="$('.main-nav').addClass('active')"><i class="fas fa-bars"></i></a>
+            </div>
+            <div class="column small-11 large-3 justify-center">
                 <a href="/"><img src="/assets/images/logo.png" alt="Valdomiro Santiago"></a>
             </div>
-            <div class="column large-6">
+            <div class="column large-6 main-nav--wrapper">
                 <nav class="main-nav">
+                    <a href="javascript:void(0);" onclick="$('.main-nav').removeClass('active')" class="close hide-for-large"> <i class="fas fa-times"></i> </a>
                     <ul>
                         <li><a href="/" class="active"> Início </a></li>
                         <li><a href="/" class="active"> Empresa </a></li>
@@ -29,12 +33,17 @@
                         </li>
                         <li><a href="/" class="active"> Contato </a></li>
                     </ul>
+
+                    <div class="hide-for-large cadastre-se ml-20">
+                        <p class="text-muted mb-5">Compre no tel: 0300 84657</p>
+                        <a href="#" class="button white fz-20">cadastre-se</a>
+                    </div>
                 </nav>
             </div>
 
             <div class="column large-2 cadastre-se">
                 <p class="text-muted fz-13 mb-5">Compre no tel: 0300 84657</p>
-                <a href="#" class="button white">cadastre-se</a>
+                <a href="#" class="button white hide-for-small-only">cadastre-se</a>
             </div>
 
             <div class="column">
@@ -87,11 +96,11 @@
 
     <div class="section bg-gray-light">
         <div class="row justify-between align-items-center">
-            <div class="column large-6">
+            <div class="column small-12 large-6 mb-20">
                 <img src="/assets//images/img-vies-social.png" alt="">
             </div>
 
-            <div class="column large-5">
+            <div class="column small-12 large-5 mt-20">
                 <h2 class="mb-30">VIÉS SOCIAL</h2>
 
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
@@ -101,12 +110,12 @@
 
     <div class="section bg-gray">
         <div class="row justify-between align-items-center">
-            <div class="column large-5">
+            <div class="column small-12 large-5">
                 <h2 class="mb-30">Quem Somos</h2>
 
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged scrambled it to make a type specimen book. It has survived not. <a href="#">Mensagem da CEO</a>.</p>
             </div>
-            <div class="column large-6">
+            <div class="column small-12 large-6">
                 <img src="/assets//images/img-quem-somos.png" alt="">
             </div>
         </div>
@@ -114,15 +123,15 @@
 
     <div class="section bg-secondary">
         <div class="row justify-evenly align-items-center">
-            <div class="icone">
+            <div class="icone column large-3 small-12">
                 <img src="/assets/images/ico-qualidade.png">
                 <p class="text-white mt-20 uppercase mb-0">Qualidade Garantida</p>
             </div>
-            <div class="icone">
+            <div class="icone column large-3 small-12">
                 <img src="/assets/images/ico-entrega.png" alt="">
                 <p class="text-white mt-20 uppercase mb-0">Entrega a domicílio</p>
             </div>
-            <div class="icone">
+            <div class="icone column large-3 small-12">
                 <img src="/assets/images/ico-pagamento.png" alt="">
                 <p class="text-white mt-20 uppercase mb-0">Pagamento Seguro</p>
             </div>
@@ -184,5 +193,6 @@
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/c59e224de6.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </body>
 </html>

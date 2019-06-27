@@ -1,5 +1,6 @@
 @import 'settings';
-@import '_typography';
+@import 'mixins';
+@import 'typography';
 @import 'buttons';
 @import 'header';
 @import 'footer';
@@ -15,6 +16,7 @@
 .mb-5{ margin-bottom: 5px; }
 .mb-30{ margin-bottom: 30px; }
 .mb-40{ margin-bottom: 40px; }
+.ml-20{ margin-left: 20px; }
 
 .bg-gray-light{ background-color: $c_gray_light; }
 .bg-gray{ background-color: $c_gray; }

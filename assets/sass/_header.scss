@@ -4,6 +4,13 @@ header{
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 9;
+
+    .fa-bars{
+        color: white;
+        font-size: 30px;
+        padding-left: 30px;
+    }
 
     .column{
         display: flex;
@@ -20,68 +27,104 @@ header{
     
 }
 
-.main-nav > ul{
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-    width: 100%;
-
-    &, ul{
-        list-style-type: none;
-        padding: 0;
-        margin-left: 0;
-    }
-
-    li{ 
-        position: relative; 
-
-        &:hover .submenu{
-            opacity: 1;
-            pointer-events: all;
-            bottom: -10px;
-        }
-    }
-
-    a{
-        color: rgb(126, 147, 151);
-        font-size: 14px;
-        text-transform: uppercase;
-        padding: 20px;
+.main-nav{
+    @include mobile{
+        position: fixed;
+        width: 80vw;
+        height: 100vh;
+        background: black;
+        top: 0;
+        left: 0;
+        transition: all .6s;
+        transform: translateX(-100%);
 
         &.active{
-            color: white;
+            transform: translateX(0%);
         }
-        
-        i{ margin-left: 10px; }
     }
 
-    .submenu{
-        border-radius: 5px;
-        position: absolute;
-        bottom: 0px;
-        left: 0;
-        transform: translateY(100%);
-        width: 300px;
-        border: 1px solid #666;
-        overflow: hidden;
-        transition: all .6s;
-        opacity: 0;
-        pointer-events: none;
-        
-        li a {
-            padding: 10px 15px;
-            background-color: #212121; 
-            border-top: 1px solid #666;
-            display: block;
-            color: white;
-            transition: all .5s;
+    > ul{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        width: 100%;
 
-            &:hover{
-                background-color: #333;
+        @include mobile{
+            flex-direction: column;
+        }
+
+        &, ul{
+            list-style-type: none;
+            padding: 0;
+            margin-left: 0;
+        }
+
+        li{ 
+            position: relative; 
+
+            &:hover .submenu{
+                opacity: 1;
+                pointer-events: all;
+                bottom: -10px;
             }
         }
 
-        li:first-child a { border-top: none; }
+        a{
+            color: rgb(126, 147, 151);
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 20px;
+
+            @include mobile{
+                display: block;
+                width: 100%;
+                font-size: 20px;
+            }
+
+            &.active{
+                color: white;
+            }
+            
+            i{ margin-left: 10px; }
+        }
+
+        .submenu{
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            transform: translateY(100%);
+            width: 300px;
+            border: 1px solid #666;
+            overflow: hidden;
+            transition: all .6s;
+            opacity: 0;
+            pointer-events: none;
+            
+            li a {
+                padding: 10px 15px;
+                background-color: #212121; 
+                border-top: 1px solid #666;
+                display: block;
+                color: white;
+                transition: all .5s;
+
+                &:hover{
+                    background-color: #333;
+                }
+            }
+
+            li:first-child a { border-top: none; }
+        }
+    }
+
+    .close{
+        color: white;
+        font-size: 24px;
+        position: absolute;
+        left: calc(80vw - 30px);
+        top: 30px;
+        z-index: 10;
     }
 }
 
@@ -100,4 +143,17 @@ header{
 
 .cadastre-se{
     min-width: 200px;
+
+    @include mobile{
+        order: 2;
+        margin-top: 10px;
+    }
+}
+
+.main-nav--wrapper{
+    @include mobile{
+        flex: 0 0 0px;
+        padding: 0;
+        order: 100;
+    }
 }

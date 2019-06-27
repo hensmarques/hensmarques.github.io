@@ -9,6 +9,10 @@
     text-align: center;
     margin-top: 103px;
 
+    @include mobile{
+        height: 100vw;
+    }
+
     &--content{
         flex: 0 0 375px;
         max-width: 375px;
