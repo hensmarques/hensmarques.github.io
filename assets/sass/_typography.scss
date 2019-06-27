@@ -1,0 +1,53 @@
+.bold{ font-weight: bold; }
+.uppercase{ text-transform: uppercase; }
+
+.text-center{ text-align: center; }
+
+.text-white{ color: white; }
+.text-muted{ color: #B9BDBE; }
+
+.fz-13{ font-size: 13px; }
+.fz-24{ font-size: 24px; }
+
+h5{
+    font-size: 24px;
+}
+
+h1,h2,h3,h4{
+    font-family: $f_title;
+    text-transform: uppercase;
+    display: inline-block;
+    
+    &.underline{
+        position: relative;
+
+        &:after{
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            width: 80%;
+            left: 10%;
+            height: 1px;
+            background-color: black;
+        }
+
+    }
+}
+
+@font-face{
+    font-family: BrownStd;
+    src: url('../fonts/BrownStd/regular/BrownStd-Regular.eot');
+    src: url('../fonts/BrownStd/regular/BrownStd-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/BrownStd/regular/BrownStd-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/BrownStd/regular/BrownStd-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/BrownStd/regular/BrownStd-Regular.svg#BrownStd') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: BrownStd;
+    src: url('../fonts/BrownStd/bold/BrownStd-Bold.eot');
+    src: url('../fonts/BrownStd/bold/BrownStd-Bold.ttf')  format('truetype'),
+         url('../fonts/BrownStd/bold/BrownStd-Bold.svg#BrownStd') format('svg');
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+@import 'settings';
+@import '_typography';
+@import 'buttons';
+@import 'header';
+@import 'footer';
+
+@import 'pages/home';
+
+.m-0{ margin: 0; }
+.m-5{ margin: 5px; }
+.mt-5{ margin-top: 5px; }
+.mt-20{ margin-top: 20px; }
+.mt-40{ margin-top: 40px; }
+.mb-0{ margin-bottom: 0px; }
+.mb-5{ margin-bottom: 5px; }
+.mb-30{ margin-bottom: 30px; }
+.mb-40{ margin-bottom: 40px; }
+
+.bg-gray-light{ background-color: $c_gray_light; }
+.bg-gray{ background-color: $c_gray; }
+.bg-secondary{ background-color: $c_secondary; }
+.bg-primary{ background-color: $c_primary; }
+
+.section{
+    padding: 40px 20px;;
+}
+
+.justify-center{ justify-content: center !important; }
+.justify-between{ justify-content: space-between !important; }
+.justify-evenly{ justify-content: space-evenly !important; }
+.align-items-center{ align-items: center; }
+
+*{
+    font-family: $f_body;
+}
