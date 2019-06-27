@@ -1,0 +1,366 @@
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-muted {
+  color: #B9BDBE;
+}
+
+.fz-13 {
+  font-size: 13px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "BrownSTD";
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+h1.underline,
+h2.underline,
+h3.underline,
+h4.underline {
+  position: relative;
+}
+
+h1.underline:after,
+h2.underline:after,
+h3.underline:after,
+h4.underline:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 80%;
+  left: 10%;
+  height: 1px;
+  background-color: black;
+}
+
+@font-face {
+  font-family: BrownStd;
+  src: url(/fonts/BrownStd-Regular.eot?fc894344a2b6c0ba1698282b659c554e);
+  src: url(/fonts/BrownStd-Regular.woff2?11da5cde8d8c2bad7bca089ec1dbf9c2) format("woff2"), url(/fonts/BrownStd-Regular.woff?000b1d366fdaa4057680888dbc361565) format("woff"), url(/fonts/BrownStd-Regular.ttf?a60bdd54e95bbccc217524d8c3ebf3a9) format("truetype"), url(/fonts/BrownStd-Regular.svg?8d2888690c92f86e2d7780d36cff74e5) format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: BrownStd;
+  src: url(/fonts/BrownStd-Bold.eot?30755818ce9c3f9750399da68c767c05);
+  src: url(/fonts/BrownStd-Bold.ttf?b8ace7fb08de51ad4113014f8aa0d140) format("truetype"), url(/fonts/BrownStd-Bold.svg?87629eea1ad4bf8a193ca305d3134ee7) format("svg");
+  font-weight: bold;
+}
+
+.button {
+  text-transform: uppercase;
+  color: white !important;
+  font-family: "BrownSTD";
+  padding: 0.85em 1em 0.7em 1em;
+}
+
+.button.block {
+  display: block;
+  width: 100%;
+}
+
+.button.white {
+  background-color: white;
+  color: black !important;
+  border-radius: 10px;
+}
+
+.button.large {
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 12px 30px 10px 30px;
+}
+
+header {
+  background-color: #000;
+  padding: 25px 0 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+header .column {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+header .button.white {
+  padding: 7px 10px 4px 10px;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.main-nav > ul {
+  display: -webkit-box;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.main-nav > ul,
+.main-nav > ul ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+.main-nav > ul li {
+  position: relative;
+}
+
+.main-nav > ul li:hover .submenu {
+  opacity: 1;
+  pointer-events: all;
+  bottom: -10px;
+}
+
+.main-nav > ul a {
+  color: #7e9397;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.main-nav > ul a.active {
+  color: white;
+}
+
+.main-nav > ul a i {
+  margin-left: 10px;
+}
+
+.main-nav > ul .submenu {
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  width: 300px;
+  border: 1px solid #666;
+  overflow: hidden;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.main-nav > ul .submenu li a {
+  padding: 10px 15px;
+  background-color: #212121;
+  border-top: 1px solid #666;
+  display: block;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.main-nav > ul .submenu li a:hover {
+  background-color: #333;
+}
+
+.main-nav > ul .submenu li:first-child a {
+  border-top: none;
+}
+
+.shopping-cart {
+  font-size: 32px;
+  position: relative;
+  color: white;
+}
+
+.shopping-cart .badge {
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  color: white;
+}
+
+.cadastre-se {
+  min-width: 200px;
+}
+
+footer {
+  background-color: black;
+  padding: 40px 20px;
+}
+
+.home-banner {
+  background-image: url("/assets/images/banner_header.png");
+  background-size: cover;
+  height: calc(100vw / 4.35);
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 103px;
+}
+
+.home-banner--content {
+  -webkit-box-flex: 0;
+          flex: 0 0 375px;
+  max-width: 375px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.home-banner--title {
+  font-size: 23px;
+  color: white;
+  margin: 25px 0;
+}
+
+.home-perfumes .perfume {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.home-perfumes .perfume img {
+  height: 310px;
+  width: auto;
+}
+
+.home-perfumes .perfume--title {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.icone {
+  text-align: center;
+}
+
+.icone img {
+  height: 100px;
+  width: auto;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.bg-gray-light {
+  background-color: #F4F4F4;
+}
+
+.bg-gray {
+  background-color: #cfcfcf;
+}
+
+.bg-secondary {
+  background-color: #7dd3f0;
+}
+
+.bg-primary {
+  background-color: #0487ff;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.justify-center {
+  -webkit-box-pack: center !important;
+          justify-content: center !important;
+}
+
+.justify-between {
+  -webkit-box-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.justify-evenly {
+  -webkit-box-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+* {
+  font-family: "BrownSTD";
+}
+

@@ -1,242 +1,188 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="icon" href="../images/favicon.ico">
-	<link rel="stylesheet" href="/scss/loading.css">
-	<script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
-
-	<title>Nasdacoin Admin - Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valdemiro Santiago</title>
+    <link rel="stylesheet" href="/dist/foundation.min.css">
+    <link rel="stylesheet" href="/dist/app.css">
 </head>
+<body>
+    <header>
+        <div class="row">
+            <div class="column large-3 justify-center">
+                <a href="/"><img src="/assets/images/logo.png" alt="Valdomiro Santiago"></a>
+            </div>
+            <div class="column large-6">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="/" class="active"> Início </a></li>
+                        <li><a href="/" class="active"> Empresa </a></li>
+                        <li>
+                            <a href="/" class="active"> Produtos <i class="fas fa-angle-down"></i></a>
 
-<body class="hold-transition skin-blue layout-top-nav loading">
-	<div class="wrapper">
+                            <ul class="submenu">
+                                <li><a href="/vs.html">VS / Valdomiro Santiago - For Men</a></li>
+                                <li><a href="/ester.html">VS / Ester - For Women</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/" class="active"> Contato </a></li>
+                    </ul>
+                </nav>
+            </div>
 
-		<header class="main-header"></header>
-		<div class="main-nav"></div>
+            <div class="column large-2 cadastre-se">
+                <p class="text-muted fz-13 mb-5">Compre no tel: 0300 84657</p>
+                <a href="#" class="button white">cadastre-se</a>
+            </div>
 
-		<!-- Content Wrapper. Contains page content -->
-		<div class="content-wrapper">
-			<section class="content-header">
-				<h1> &nbsp; </h1>
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Admin</a></li>
-					<li class="breadcrumb-item active">Dashboard</li>
-				</ol>
-			</section>
+            <div class="column">
+                <a href="#" class="shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="badge success">1</div>
+                </a>
+            </div>
+        </div>
+    </header>
 
-			<!-- Main content -->
-			<section class="content">
-				<div class="row dashboard-cards">
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">Usuários Totais / Dia / <small class="text-green">Ativos</small></h6>
-							<div class="flexbox mt-2">
-								<img class="card-icon" src="/images/icons/01.svg"></img>
-								<span class=" font-size-24">4250 / 553 / <small class="text-green">120</small></span>
-							</div>
-							<a href="/pages/05_usuarios.html" class="link-small align-self-end">Ver Todos</a>
-						</div>
-					</div>
-					<!-- /.col -->
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">Contratos Totais / Dia</h6>
-							<div class="flexbox mt-2">
-								<img class="card-icon" src="/images/icons/02.svg"></img>
-								<span class=" font-size-26">4105</span>
-							</div>
-							<a href="/pages/45_dashboard_contratos.html" class="link-small align-self-end">Ver Todos</a>
-						</div>
-					</div>
-					<!-- /.col -->
+    <div class="home-banner">
+        <div class="home-banner--content">
+            <img src="/assets/images/logo_center.png" alt="">
+            <h2 class="home-banner--title">Uma linha exclusiva de perfumes com fragrâncias únicas e viés social.</h2>
 
-					<!-- fix for small devices only -->
-					<div class="clearfix visible-sm-block"></div>
+            <div class="button secondary large">COMPRAR AGORA</div>
 
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">TOTAL CONVERTIDO USD/NSD</h6>
-							<div class="flexbox mt-2">
-								<img src="/images/icons/icon_nsd.png" width="40" height="40" alt="">
-								<span class=" font-size-26">$43.211,02</span>
-							</div>
-							<a href="/pages/46_dashboard_conversoes.html" class="link-small align-self-end">Ver Todos</a>
-						</div>
-					</div>
-					<!-- /.col -->
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">CHAMADOS EM ABERTO</h6>
-							<div class="flexbox mt-2">
-								<span class="fa fa-support font-size-40 text-teal"></span>
-								<span class=" font-size-26">118</span>
-							</div>
-							<a href="/pages/47_dashboard_chamados.html" class="link-small align-self-end">Ver Todos</a>
-						</div>
-					</div>
-					<!-- /.col -->
+            <img src="/assets/images/assinatura.png" alt="">
+        </div>
+    </div>
 
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">Verificar Documentos</h6>
-							<div class="flexbox mt-2">
-								<span class="mdi mdi-fingerprint font-size-40 text-teal"></span>
-								<span class=" font-size-26">45</span>
-							</div>
-							<a href="/pages/49_dashboard_documents.html" class="link-small align-self-end">Ver Todos</a>
-						</div>
-					</div>
+    <div class="home-perfumes section">
+        <div class="row">
+            <div class="column small-12 large-12 text-center mb-40">
+                <h2 class="underline">OS PERFUMES</h2>
+            </div>
 
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">Usuários Bloqueados</h6>
-							<div class="flexbox mt-2">
-								<span class="fa fa-ban font-size-40 text-teal"></span>
-								<span class=" font-size-26">414</span>
-							</div>
-							<a href="/pages/05_usuarios.html" class="link-small align-self-end">Ver Todos</a>
-						</div>
-					</div>
+            <div class="column small-12 large-6">
+                <div class="perfume">
+                    <img src="/assets/images/img-vs.png" alt="Perfume VS/Valdemiro Santiago" height="310">
+                    <h4 class="perfume--title bold">VS/Valdemiro Santiago</h4>
+                    <h5>50ml - FOR MEN</h5>
+                    <h5><strong>R$ 33,00</strong></h5>
+                    <a href="/" class="button secondary large">Comprar Agora</a>
+                </div>
+            </div>
 
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">NSD Investment Program</h6>
-							<div class="flexbox mt-2">
-								<span class="mdi mdi-coin font-size-40 text-teal"></span>
-								<span class=" font-size-26">$ 0,45</span>
-							</div>
-							<a href="#" class="link-small align-self-end" data-toggle="modal" data-target="#dashboardInvestmentProgram">Ver Todos</a>
-						</div>
-					</div>
+            <div class="column small-12 large-6">
+                <div class="perfume">
+                    <img src="/assets/images/img-ester.png" alt="Perfume VS/Ester" height="310">
+                    <h4 class="perfume--title bold">VS/Ester</h4>
+                    <h5>50ml - FOR WOMEN</h5>
+                    <h5><strong>R$ 45,00</strong></h5>
+                    <a href="/" class="button secondary large">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-					<div class="col-xl-3 col-md-6 col-12">
-						<div class="box box-body">
-							<h6 class="text-uppercase">Logs do Dia</h6>
-							<div class="flexbox mt-2">
-								<span class="mdi mdi-information-outline font-size-40 text-teal"></span>
-								<span class=" font-size-26">156</span>
-							</div>
-							<a href="/pages/52_dashboard_logs.html" class="link-small align-self-end">Ver Todos</a>
-						</div>
-					</div>
+    <div class="section bg-gray-light">
+        <div class="row justify-between align-items-center">
+            <div class="column large-6">
+                <img src="/assets//images/img-vies-social.png" alt="">
+            </div>
 
-				</div>
+            <div class="column large-5">
+                <h2 class="mb-30">VIÉS SOCIAL</h2>
 
-				<div class="row">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.</p>
+            </div>
+        </div>
+    </div>
 
-					<div class="col-12 col-lg-6">
-						<!-- AREA CHART -->
-						<div class="box">
-							<div class="box-header with-border">
-								<h4 class="box-title">Evolução de Cadastros</h4>
-								<ul class="box-controls pull-right">
-									<li><a class="box-btn-close" href="#"></a></li>
-									<li><a class="box-btn-slide" href="#"></a></li>
-									<li><a class="box-btn-fullscreen" href="#"></a></li>
-								</ul>
-							</div>
-							<div class="box-body">
-								<div class="chart">
-									<canvas id="chart_cadastros" height="120"></canvas>
-								</div>
-							</div>
-							<!-- /.box-body -->
-						</div>
-						<!-- /.box -->
-					</div>
+    <div class="section bg-gray">
+        <div class="row justify-between align-items-center">
+            <div class="column large-5">
+                <h2 class="mb-30">Quem Somos</h2>
 
-					<div class="col-12 col-lg-6">
-						<!-- AREA CHART -->
-						<div class="box">
-							<div class="box-header with-border">
-								<h4 class="box-title">Evolução de Contratos</h4>
-								<ul class="box-controls pull-right">
-									<li><a class="box-btn-close" href="#"></a></li>
-									<li><a class="box-btn-slide" href="#"></a></li>
-									<li><a class="box-btn-fullscreen" href="#"></a></li>
-								</ul>
-							</div>
-							<div class="box-body">
-								<div class="chart">
-									<canvas id="chart_contratos" height="120"></canvas>
-								</div>
-							</div>
-							<!-- /.box-body -->
-						</div>
-						<!-- /.box -->
-					</div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged scrambled it to make a type specimen book. It has survived not. <a href="#">Mensagem da CEO</a>.</p>
+            </div>
+            <div class="column large-6">
+                <img src="/assets//images/img-quem-somos.png" alt="">
+            </div>
+        </div>
+    </div>
 
-					<div class="col-xl-12 col-12">
-						<div class="box">
-							<div class="box-header with-border">
-								<h4 class="box-title">Analytics de Conexões</h4>
-							</div>
-							<!-- /.box-header -->
-							<div class="box-body">
-								<div id="world-map-markers" style="height: 420px"></div>
-							</div>
-							<!-- /.box-body -->
-						</div>
-						<!-- /.box -->
-					</div>
+    <div class="section bg-secondary">
+        <div class="row justify-evenly align-items-center">
+            <div class="icone">
+                <img src="/assets/images/ico-qualidade.png">
+                <p class="text-white mt-20 uppercase mb-0">Qualidade Garantida</p>
+            </div>
+            <div class="icone">
+                <img src="/assets/images/ico-entrega.png" alt="">
+                <p class="text-white mt-20 uppercase mb-0">Entrega a domicílio</p>
+            </div>
+            <div class="icone">
+                <img src="/assets/images/ico-pagamento.png" alt="">
+                <p class="text-white mt-20 uppercase mb-0">Pagamento Seguro</p>
+            </div>
+        </div>
+    </div>
 
+    <div class="section bg-primary text-white">
+        <h5 class="text-white bold mb-30 text-center">Formas de Pagamento</h5>
 
-				</div>
-				<!-- /.row -->
-			</section>
-			<!-- /.content -->
+        <div class="row justify-center">
+            <img src="/assets/images/fp-1.png" alt="">
+            <img src="/assets/images/fp-2.png" alt="">
+            <img src="/assets/images/fp-3.png" alt="">
+        </div>
 
-			<div class="modal center-modal fade" id="dashboardInvestmentProgram" tabindex="-1">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title text-teal">NSD - Investment Program</h5>
-							<button type="button" class="close" data-dismiss="modal">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<div class="callout callout-green mb-10 p-10 d-flex justify-content-between">
-								<span>Edite abaixo a cotação NSD para o Programa de Investimento</span>
-							</div>
-							<span class="mt-10 text-uppercase font-size-10">Para confirmar a alteração, digite o seu PIN de segurança e clique em confirmar</span>
+        <hr>
 
-							<div class="d-flex">
-								<div class="input-group date">
-									<div class="input-group-addon">
-										<i class="mdi mdi-coin font-size-18 text-teal"></i>
-									</div>
-									<input type="text" class="form-control pull-right text-right" id="">
-								</div>
-							</div>
+        <div class="row justify-center text-center mt-40">
+            <img src="/assets/images/certif-0.png" alt="">
+            <img src="/assets/images/certif-1.png" alt="">
+        </div>
 
-							<div class="d-flex mt-15">
-								<div class="input-group date">
-									<div class="input-group-addon pl-15 pr-15 pt-10">
-										<i class="fa fa-lock text-teal"></i>
-									</div>
-									<input type="password" class="form-control pull-right" id="">
-								</div>
-								<a href="#" class="btn btn-info ml-10 pb-1 pt-5 lh-23 font-size-12">Editar</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+        <div class="newsletter mt-40">
+            <div class="row">
+                <div class="column large-12 small-12">
+                    <h5>
+                        <i class="fas fa-envelope"></i>
+                        <span class="bold">receba ofertas com preços exclusivos</span> <small class="text-muted"> + política de privacidade</small>
+                    </h5>
 
+                    <form action="" method="POST" class="row mt-20">
+                        <div class="column large-5">
+                            <input type="text" placeholder="digite seu nome">
+                        </div>
+                        <div class="column large-5">
+                            <input type="email" placeholder="digite seu e-mail">
+                        </div>
+                        <div class="column large-2">
+                            <input type="submit" value="enviar" class="button secondary block">
+                        </div>
+                    </form>
 
-		</div>
-		<!-- /.content-wrapper -->
+                </div>
+            </div>
+        </div>
+    </div>
+        
 
-		<footer class="main-footer"></footer>
-	</div>
-
-	<script>var activeMenu = 'dashboard'; </script>
-	<script src="/layout-builder.js"></script>
+    <footer>
+        <div class="row align-items-center text-white text-center justify-evenly">
+            <div class="column large-3">
+                <img src="/assets//images/logo_center.png" alt="">
+            </div>
+            <div class="column large-6">
+                <p>Rua Original 219 - Vila Madalena - São Paulo SP</p>
+                <p>11 4130-3270</p>
+                <p>contato@vs.com.br</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/c59e224de6.js"></script>
 </body>
 </html>
