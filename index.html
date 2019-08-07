@@ -105,11 +105,11 @@
                         </div>
                         
                         <div class="auth-btn head-item float-right">
-                            <button type="button" class="md-trigger main-btn play-btn-fill reg" data-modal="modal-reg" style="margin-right: 15px;">
+                            <button type="button" class="md-trigger main-btn play-btn-fill reg" onclick="openModal('#modal-transactions')" style="margin-right: 15px;">
                                 <span>Deposit</span>
                             </button>
                             
-                            <button style="margin-right: 10px;" type="button" class="md-trigger main-btn play-btn-fill log" data-modal="modal-login">
+                            <button style="margin-right: 10px;" type="button" class="md-trigger main-btn play-btn-fill log" onclick="openModal('#modal-transactions'); $('.tab-withdraw').trigger('click')">
                                 <span>Withdraw</span>
                             </button>
                         </div>
@@ -488,7 +488,8 @@
     
     
     <!-- MODAIS PARA USUÁRIO LOGADO -->
-    <div class="md-modal  modal-transactions">
+    <div id="modal-transactions" class="md-modal modal-transactions">
+        <div class="modal-close-no-log md-close" onclick="$('#modal-transactions').removeClass('md-show')"></div>
         <div class="tabs-wrapper modal-content">
             <div class="tabs-nav">
                 <ul class="tabs li-down-tabs-block free-tab-cabinet">
@@ -499,7 +500,7 @@
                     </li>
                     
                     <li class="li-down-tabs table-display-pay-tab-3">
-                        <a tab-nav href="#tab_withdraw">
+                        <a tab-nav href="#tab_withdraw" class="tab-withdraw">
                             <span class="link-text">Withdraw</span>
                         </a>
                     </li>
