@@ -1,0 +1,109 @@
+$c_primary: #DE2445;
+
+@import '_header';
+@import '_sidebar';
+@import '_slider';
+@import '_game-list';
+@import '_modal';
+@import 'tables';
+@import '_modal-login';
+@import '_modal-transactions';
+@import '_footer';
+
+body{
+    background: #071518;
+}
+
+.h100p{
+    height: 100%;
+}
+
+svg{
+    height: 100%;
+}
+
+.col-flex-align-center{
+    display: flex;
+    align-items: center;
+}
+
+.main-btn {
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 2px;
+    float: left;
+    border: none;
+    outline: 0!important;
+}
+
+.play-btn-fill {
+    background: 0 0;
+    box-shadow: 0 0 0 2px #b12509;
+    padding: 4px 25px;
+    top: 2px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.button-green.large{
+    color: #fdfdfd;
+    transition: .2s;
+    font-size: 17px;
+    background: #188205;
+    box-shadow: 0 0 0 3px #188205;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50px;
+    min-width: 280px;
+    text-align: center;
+    padding: 12px;
+    display: inline-block;
+
+    &.block{
+        display: block;
+    }
+
+    &:hover{
+        text-decoration: none;
+        background: 0 0;
+    }
+
+    &.outline{
+        background: 0 0;
+
+        &:hover{
+            background: #188205;
+        }
+    }
+}
+
+.tab-content{
+    display: none;
+
+    &.active{
+        display: block;
+    }
+}
+
+.text-green{
+    color: #14B268 !important;
+}
+
+img{
+    max-width: 100%;;
+}
+
+.ta-left{
+    text-align: left !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white !important;
+}

@@ -1,0 +1,29 @@
+.footer-logos{
+    max-width: 1142px;
+    width: 100%;
+    margin: 60px auto;
+    display: block;
+    filter: saturate(1.8) brightness(0.8);
+}
+
+.disclaimer{
+    display: flex;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 60px;
+    
+    img{
+        filter: saturate(1.8) brightness(0.8);
+        width: 66px;
+        margin-right: 40px;
+    }
+
+    p{
+        text-align: center;
+        color: #565D63;
+        font-size: 13px;
+        margin: 0;
+    }
+}

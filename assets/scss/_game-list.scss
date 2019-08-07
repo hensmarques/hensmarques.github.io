@@ -1,0 +1,320 @@
+.games_list_section {
+    padding-top: 30px;
+}
+
+.games_list_header {
+    width: fit-content;
+    width: -moz-fit-content;
+    clear: both;
+    margin: 0 auto 30px auto;
+
+    li {
+        list-style: none;
+        text-align: center;
+        position: relative;
+        margin: 0 10px;
+        float: left;
+
+        a {
+            display: inline-block;
+            text-align: center;
+            width: 70px;
+
+            .ico {
+                padding-top: 10px;
+                display: inline-block;
+                box-shadow: 0 0 0 3px #0b1f24;
+                text-align: center;
+                height: 50px;
+                width: 50px;
+                margin: auto;
+                border-radius: 100px;
+
+                svg {
+                    fill: $c_primary;
+                    z-index: 1;
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+
+        }
+        
+        span {
+            color: #fff;
+            font-size: 13px;
+            display: block;
+            font-weight: 600;
+            padding-top: 5px;
+            text-transform: uppercase;
+        }
+    }
+
+    .provider-filter {
+        width: 200px;
+        width: -moz-fit-content;
+        background: #0b1f24;
+        border-radius: 5px;
+        color: #fff;
+        height: 50px;
+        display: flex;
+        cursor: pointer;
+        padding: 5px 15px 5px 10px;
+        top: 0;
+
+        svg {
+            width: 30px;
+            fill: $c_primary;
+            height: 35px;
+            float: left;
+            top: 3px;
+            position: relative;
+        }
+
+        p {
+            margin-bottom: 0;
+            padding-left: 7px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.games_list_header, .search-li {
+    display: flex;
+    position: relative;
+}
+
+.search-li {
+    border-radius: 5px;
+    height: 50px;
+    cursor: pointer;
+    padding: 5px 15px 5px 10px;
+    transition: width .3s;
+
+    svg {
+        width: 24px;
+        fill: $c_primary;
+        height: 35px;
+        float: left;
+        top: 3px;
+        position: relative;
+        z-index: 2;
+    }    
+
+    span {
+        margin-bottom: 0;
+        padding-left: 10px;
+        padding-top: 10px!important;
+        font-size: 14px!important;
+        font-weight: 100!important;
+    }
+}
+
+#searchMain {
+    border-radius: 5px;
+    border: none;
+    padding: 13px 10px 13px 50px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+#searchMain, .search-li {
+    color: #fff;
+    width: 200px;
+    background: #0b1f24;
+    top: 0;
+}
+
+#searchMain, .search-li {
+    color: #fff;
+    width: 200px;
+    background: #0b1f24;
+    top: 0;
+}
+
+.sort_list {
+    display: none;
+    width: 100%;
+    padding: 15px 15px 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-top: 1px solid #0b1f24;
+
+    a.active {
+        color: #fff;
+        box-shadow: 0 0 0 2px #ffaf00;
+    }
+
+    a {
+        padding: 5px 15px 5px 5px;
+        background: #071518;
+        border-radius: 5px;
+        color: #56747b;
+        font-size: 14px;
+        font-weight: 400;
+        height: 40px;
+        margin: 5px;
+        position: relative;
+        display: inline-block;
+        line-height: 2;
+        box-shadow: 0 0 0 1px #0b1f24;
+        transition: all .6s;
+
+        &:hover {
+            text-decoration: none;
+            color: #ffaf00;
+            background: rgba(255,255,255,0.03);
+        }
+
+        span{
+            width: 60px;
+            height: 29px;
+            display: inline-block;
+            float: left;
+            margin-right: 5px;
+            border-radius: 5px;
+            top: 0;
+            position: relative;
+            background-color: #081d21;
+        }
+    }
+}
+
+.secion-index-games {
+    margin: 0 auto;
+    justify-content: center;
+
+    .slots-blocks {
+        width: 210px;
+        padding: 5px 5px 0;
+        height: 210px;
+    }
+    
+    .example {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .card-wrapper {
+        margin: 0 auto;
+        border-radius: 5px;
+
+        &:hover{
+            .card-overlay {
+                opacity: 1;
+                visibility: visible;
+                transition: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .card-img {
+        border-radius: calc(.25rem - 1px);
+        overflow: hidden;
+        width: 100%;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card-overlay {
+        color: #fff;
+        top: 0;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        display: block;
+        background: #081d21ed;
+    }
+
+    .card-name {
+        font-weight: 400;
+        font-size: 17px;
+        margin: 15px 0;
+        display: none;
+    }   
+
+    .demo {
+        font-size: 15px;
+        color: #fff;
+        margin-top: 10px;
+        position: absolute;
+        bottom: 35px;
+        transform: translateX(-50%);
+    }
+
+    .play-btn-fill{
+        background: 0 0;
+        box-shadow: 0 0 0 2px #b12509;
+        padding: 4px 25px;
+        top: 2px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+
+        &:hover{
+            text-decoration: none;
+            background: #b12509;
+            box-sizing: border-box;
+            color: white;
+        }
+    }
+}
+
+.card-name-block {
+    background: #0b1f24;
+    z-index: 1;
+    position: relative;
+    padding: 4px 1px;
+    text-align: center;
+    color: #eee;
+    font-size: 12px;
+    bottom: 15px;
+    display: block;
+    border-radius: 15px;
+    margin: 0 5px;
+    box-shadow: 0 0 15px #0c1117;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.play-btn {
+    font-size: 16px;
+    border-radius: 30px;
+    line-height: 1.2!important;
+    width: 160px;
+    background: 0 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 40px auto;
+    position: absolute;
+    height: 50px;
+}
+
+.load_games {
+    width: 300px;
+    position: relative;
+    background: #14B268;
+    border-radius: 50px;
+    margin: 20px auto auto;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px #14B268;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+}

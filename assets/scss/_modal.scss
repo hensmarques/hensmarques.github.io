@@ -1,0 +1,101 @@
+.md-effect-2 {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform .5s cubic-bezier(.25,.5,.5,.9);
+}
+
+.md-modal {
+    z-index: 9999;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    visibility: hidden;
+    backface-visibility: hidden;
+    background: #071518;
+    transition: background .2s, transform .6s;
+}
+
+.md-show {
+    visibility: visible;
+}
+.md-modal, .modal-content-reg-login {
+    height: 100vh;
+}
+.md-modal, .md-overlay {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.md-show.md-effect-2 {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-clip: padding-box;
+    outline: 0;
+    overflow: hidden;
+    background: 0 0;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.modal-close, .modal-close-no-log {
+    height: 30px;
+    background: url(/assets/images/icon-close.svg) 0 0/cover no-repeat;
+    z-index: 9999999999999;
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+.modal-title-head {
+    font-size: 35px;
+    margin-top: 80px;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px 0 30px;
+    text-shadow: 0 4px 10px #000;
+    width: 100%;
+    position: relative;
+}
+
+.registration-block {
+    margin-top: 5px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.registration-block, .registration-block-content {
+    height: 100%;
+    position: relative;
+}
+
+.block-singup-banner.center {
+    margin: auto;
+    padding: 0;
+}
+
+
+.modal-footer .modal-btn {
+    width: 254px;
+    left: 0;
+    right: 0;
+    padding: 13px 12px;
+    margin: 15px auto 10px;
+    cursor: pointer;
+    display: block;
+    float: initial;
+    font-size: 17px;
+
+    &:hover{
+        background-color: $c_primary;
+        color: white;
+    }
+}
