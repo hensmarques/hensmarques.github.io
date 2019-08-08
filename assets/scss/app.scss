@@ -1,5 +1,6 @@
 $c_primary: #DE2445;
 
+@import '_mixins';
 @import '_header';
 @import '_sidebar';
 @import '_slider';
@@ -8,6 +9,7 @@ $c_primary: #DE2445;
 @import 'tables';
 @import '_modal-login';
 @import '_modal-transactions';
+@import '_modal-profile';
 @import '_footer';
 
 body{
@@ -110,4 +112,71 @@ img{
 
 @media screen and (max-width: 768px){
     .hidden-sm{ display: none; }
+}
+
+.custom-radio, .custom-checkbox{
+    margin: 0 20px;
+
+    &.vertical label{
+        display: block;
+        margin-bottom: 20px;
+        padding-top: 1px;
+    }
+
+    &.two-columns{
+        column-count: 2;
+    }
+    &.three-columns{
+        column-count: 3;
+        column-gap: 10px;
+    }
+
+    label{ position: relative; font-weight: bold; }
+
+    [type="radio"], [type="checkbox"]{ display: none; }
+
+    label:before{
+        box-shadow: 0 0 0 1px white;
+        position: absolute;
+        left: -25px;
+        transition: all .3s;
+        top: 3px;
+        width: 17px;
+        height: 17px;
+    }
+
+    @include mobile {
+        column-count: 1 !important;
+
+        label {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.custom-radio{
+    [type="radio"]:checked + label:before{
+        background-color: $c_primary
+    }
+
+    label:before{
+        content: '';
+        border-radius: 50%;
+    }
+}
+
+.custom-checkbox{
+    [type="checkbox"]:checked + label:before{
+        color: $c_primary;
+    }
+
+    label:before{
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        line-height: 1;
+        border-radius: 5px;
+        border: 3px solid white;
+        color: white;
+        font-size: 12px;
+    }
 }

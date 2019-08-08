@@ -1,57 +1,7 @@
 .modal-transactions{
     margin-top: 70px;
 
-    .modal-content{
-        max-width: 1440px;
-        margin: 40px auto;
-    }
-
-    .li-down-tabs-block {
-        width: 100%;
-        padding: 0;
-        background: #0b1f24;
-        margin-bottom: 0;
-        margin-top: 20px;
-        border-radius: 5px;
-    }
-
-    .tabs-nav > ul {
-        list-style-type: none;
-        display: inline-block;
-        border-radius: 100px;
-        box-shadow: 0 2px 11px 0 #071518;
-        background: #0b1f24;
-        padding: 5px;
-        margin-top: 15px;
-        display: flex;
-    }
-
-    .li-down-tabs {
-        flex: 1;
-        margin: 0 auto;
-        height: 90px;
-        text-align: center;
-        cursor: pointer;
-        border-bottom: 1px solid #0e2125;
-        font-weight: 600;
-        max-height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        a  { color: #fff; }
-    }
-
-    .li-down-tabs.current {
-        box-shadow: 0 1px 20px 0 rgba(0,0,0,.35);
-        background: #071518!important;
-        border-radius: 100px;
-        cursor: pointer;
-        transition: .3s;
-
-        a  { color: $c_primary; }
-    }
-
+    
     .push-text-deposit {
         border-radius: 100px;
         padding: 10px 8px 8px;
@@ -79,43 +29,6 @@
                 vertical-align: -4px;
             }
         }
-    }
-
-    .panel{
-        background: #0c1f24;
-        border-radius: 15px;
-        overflow: hidden;
-        padding: 40px;
-
-        img.filtered{
-            filter: saturate(1.8) brightness(0.87);
-        }
-    }
-
-    .form-control{
-        border-radius: 5px!important;
-    }
-
-    .input-group .form-control{
-        border-radius: 5px 0 0 5px !important;
-    }
-
-    .input-group-text{
-        color: #36798A !important;
-        font-weight: bold !important; 
-    }
-
-    .form-control, .input-group-text{
-        border: #071518;
-        height: 55px;
-        font-size: 20px;
-        color: #fff;
-        background: #071518;
-    }
-
-    .button-green{
-        margin-top: -18px;
-        margin-left: 25px;
     }
 
     .history-text {
