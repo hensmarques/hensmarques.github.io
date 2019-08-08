@@ -496,12 +496,22 @@ input[type=date]:disabled::before {
 }
 
 .sort_list {
-  display: none;
   width: 100%;
   padding: 15px 15px 5px;
   margin-bottom: 10px;
   text-align: center;
   border-top: 1px solid #0b1f24;
+  transition: opacity 0.6s;
+  max-height: 0px;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sort_list.active {
+  pointer-events: all;
+  opacity: 1;
+  max-height: 200px;
 }
 
 .sort_list a.active {
@@ -562,6 +572,7 @@ input[type=date]:disabled::before {
 .secion-index-games .card-wrapper {
   margin: 0 auto;
   border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.03);
 }
 
 .secion-index-games .card-wrapper:hover .card-overlay {

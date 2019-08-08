@@ -134,12 +134,22 @@
 }
 
 .sort_list {
-    display: none;
     width: 100%;
     padding: 15px 15px 5px;
     margin-bottom: 10px;
     text-align: center;
     border-top: 1px solid #0b1f24;
+    transition: opacity .6s;
+    max-height: 0px;
+    opacity: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+    &.active{
+        pointer-events: all;
+        opacity: 1;
+        max-height: 200px;
+    }
 
     a.active {
         color: #fff;
@@ -199,6 +209,7 @@
     .card-wrapper {
         margin: 0 auto;
         border-radius: 5px;
+        background-color: rgba(255,255,255,0.03);
 
         &:hover{
             .card-overlay {
