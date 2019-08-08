@@ -332,6 +332,14 @@ input[type=date]:disabled::before {
   margin-bottom: 60px;
 }
 
+@media screen and (max-width: 768px) {
+  .slider {
+    margin-top: 70px;
+    height: calc(100vw / 1.1);
+    margin-bottom: 40px;
+  }
+}
+
 .slider .slide {
   position: absolute;
   width: 100%;
@@ -340,6 +348,16 @@ input[type=date]:disabled::before {
 
 .slider .slide img {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .slider .slide img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
 }
 
 .slider .arrows {
@@ -369,12 +387,27 @@ input[type=date]:disabled::before {
   margin: 0 auto 30px auto;
 }
 
+@media screen and (max-width: 768px) {
+  .games_list_header {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+  }
+}
+
 .games_list_header li {
   list-style: none;
   text-align: center;
   position: relative;
   margin: 0 10px;
   float: left;
+}
+
+@media screen and (max-width: 768px) {
+  .games_list_header li {
+    max-width: calc(25% - 20px);
+    margin-bottom: 15px;
+  }
 }
 
 .games_list_header li a {
@@ -423,6 +456,14 @@ input[type=date]:disabled::before {
   top: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .games_list_header .provider-filter {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 1;
+  }
+}
+
 .games_list_header .provider-filter svg {
   width: 30px;
   fill: #DE2445;
@@ -444,12 +485,32 @@ input[type=date]:disabled::before {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .auth-btn.head-item {
+    display: none;
+  }
+
+  .main-nav .logo img {
+    height: auto;
+    max-height: 50px;
+  }
+}
+
 .search-li {
   border-radius: 5px;
   height: 50px;
   cursor: pointer;
   padding: 5px 15px 5px 10px;
   transition: width 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .search-li {
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 1;
+    margin-bottom: 15px;
+  }
 }
 
 .search-li svg {
@@ -562,6 +623,18 @@ input[type=date]:disabled::before {
   width: 210px;
   padding: 5px 5px 0;
   height: 210px;
+}
+
+@media screen and (max-width: 768px) {
+  .secion-index-games .slots-blocks {
+    flex: 0 0 calc(100vw - 40px);
+    max-width: calc(100vw - 40px);
+    height: calc(100vw - 40px);
+  }
+
+  .secion-index-games .slots-blocks .card-wrapper {
+    height: calc(100% - 40px);
+  }
 }
 
 .secion-index-games .example {
@@ -753,6 +826,13 @@ input[type=date]:disabled::before {
   top: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .modal-close,
+  .modal-close-no-log {
+    top: 10px;
+  }
+}
+
 .modal-title-head {
   font-size: 35px;
   margin-top: 80px;
@@ -796,6 +876,12 @@ input[type=date]:disabled::before {
 .modal-footer .modal-btn:hover {
   background-color: #DE2445;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #tab_history {
+    padding: 0 20px;
+  }
 }
 
 #profile-data-form,
@@ -1151,6 +1237,16 @@ a:hover .button-text {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .modal-transactions .push-text-deposit {
+    padding: 10px 20px;
+  }
+
+  .modal-transactions .push-text-deposit p span {
+    font-size: 25px !important;
+  }
+}
+
 .modal-transactions .push-text-deposit p {
   font-weight: 600;
   font-size: 18px;
@@ -1213,9 +1309,49 @@ a:hover .button-text {
   padding: 0 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .modal-transactions .history-text {
+    margin-bottom: 15px;
+  }
+}
+
+.modal-transactions .form-deposit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-transactions .form-deposit .button-green {
+  margin: 20px auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  #tab_pay .qrcode {
+    max-width: 220px;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+}
+
 .tab_confirm-text {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .tab_confirm-text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tab_confirm-text img {
+    margin: 0 0 15px 0 !important;
+    width: 60px;
+  }
+}
+
+.table-responsive-sm {
+  background: #0b1f24;
+  border-radius: 15px;
 }
 
 .footer-logos {
@@ -1346,5 +1482,11 @@ img {
 
 .text-white {
   color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+  .hidden-sm {
+    display: none;
+  }
 }
 

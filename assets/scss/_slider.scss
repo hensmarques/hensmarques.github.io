@@ -4,6 +4,12 @@
     position: relative;
     margin-bottom: 60px;
 
+    @media screen and (max-width: 768px){
+        margin-top: 70px;
+        height: calc(100vw / 1.1);
+        margin-bottom: 40px;
+    }
+
     .slide{ 
         position: absolute;
         width: 100%;
@@ -11,6 +17,12 @@
 
         img{
             width: 100%;
+
+            @media screen and (max-width: 768px){
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
         }
     }
 

@@ -85,14 +85,27 @@
                             <span>TV keno</span>
                         </a>
                     </li>
+                    
+                    <li>
+                        <button type="button" class="md-trigger main-btn play-btn-fill reg w100p" onclick="openModal('#modal-transactions')" style="margin: 0 15px; width: calc(100% - 15px)">
+                            <span>Deposit</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button style="margin: 0 15px; width: calc(100% - 15px)" type="button" class="md-trigger main-btn play-btn-fill log" onclick="openModal('#modal-transactions'); $('.tab-withdraw').trigger('click')">
+                            <span>Withdraw</span>
+                        </button>
+                    </li>
                 </div>
+
+                
             </div>
         </div>
         
         <div id="fTop" class="main-nav noreg">
             <div class="h100p">
                 <div class="row align-items-center h100p">
-                    <div class="col-4 col-md-4 col-xl-5 col-lg-5 left-col">
+                    <div class="col-3 col-sm-3 col-md-4 col-xl-5 col-lg-5 left-col">
                         <div class="head-item left">
                             <!-- expander-->
                             <div id="menu-toggle" class="ssm-toggle-nav ssm-nav-visible">
@@ -115,13 +128,13 @@
                         </div>
                     </div>
                     
-                    <div class="col-4 col-md-4 col-xl-2 col-lg-2">
+                    <div class="col-6 col-sm-6 col-md-4 col-xl-2 col-lg-2">
                         <a href="/" class="logo">
                             <img src="/assets/images/logo.png" height="55">
                         </a>
                     </div>
                     
-                    <div class="col-4 col-md-4 col-xl-5 col-lg-5 right-col">
+                    <div class="col-3 col-sm-3 col-md-4 col-xl-5 col-lg-5 right-col">
                         <div class="lang-no-reg">
                             
                             <div class="dropdown lang-switch">
@@ -137,9 +150,9 @@
                         </div>
                         <div class="auth-btn head-item values float-right">
                             <span class="featured">
-                                <i class="fas fa-wallet"></i> &nbsp; 0.00 RUB
+                                <i class="fas fa-wallet"></i> &nbsp; 0.00 USD
                             </span>
-                            <span>BONUS: 0 RUB | 0 FS</span>
+                            <span>BONUS: 0 USD | 0 FS</span>
                         </div>
                     </div>
                 </div>
@@ -520,7 +533,7 @@
                     </li>
                     
                     <li class="li-down-tabs table-display-pay-tab-3">
-                        <a tab-nav href="#tab_history">
+                        <a tab-nav href="#tab_history" class="tab-history">
                             <span class="link-text">History</span>
                         </a>
                     </li>
@@ -529,18 +542,18 @@
             
             <div class="tab-content active" id="tab_deposit">
                 <div class="push-text-deposit">
-                    <p>Make a deposit of <span>500 RUB</span> or more and get <span>300 percent</span> for free to your account.                        </p>
+                    <p>Make a deposit of <span>500 USD</span> or more and get <span>300 percent</span> for free to your account.                        </p>
                 </div>
                 
                 <div class="panel">
-                    <form action="" method="POST" style="display:flex">
-                        <div class="col-flex-align-center col-md-2">
+                    <form action="" method="POST" class="form-deposit">
+                        <div class="col-flex-align-center col-md-2 hidden-sm">
                             <a href="#">
                                 <img src="/assets/images/button-back.png" alt="Voltar" width="100" class="filtered">
                             </a>
                         </div>
                         
-                        <div class="col-flex-align-center col-md-2">
+                        <div class="col-flex-align-center col-md-2 hidden-sm">
                             <img src="/assets/images/shield-deposit.png" alt="" width="116" class="filtered">
                         </div>
                         
@@ -565,19 +578,19 @@
                 
                 
                 <div class="text-center">
-                    <a href="#" style="margin: 20px 0;" class="button-green large outline">History</a>
+                    <a href="#" style="margin: 20px 0;" class="button-green large outline" onclick="$('.tab-history').trigger('click')">History</a>
                 </div>
             </div>
             
             <div class="tab-content" id="tab_pay">
                 <div class="push-text-deposit">
-                    <p>Make a deposit of <span>500 RUB</span> or more and get <span>300 percent</span> for free to your account.                        </p>
+                    <p>Make a deposit of <span>500 USD</span> or more and get <span>300 percent</span> for free to your account.                        </p>
                 </div>
                 
                 <div class="panel">
                     <form action="" method="POST" class="row justify-content-center">
                         <div class="col-md-3">
-                            <img src="/assets/images/qrcode.png" alt="">
+                            <img src="/assets/images/qrcode.png" alt="" class="qrcode">
                         </div>
                         
                         <div class="col-md-5">
@@ -607,7 +620,7 @@
             
             <div class="tab-content" id="tab_confirm">
                 <div class="push-text-deposit">
-                    <p>Make a deposit of <span>500 RUB</span> or more and get <span>300 percent</span> for free to your account.                        </p>
+                    <p>Make a deposit of <span>500 USD</span> or more and get <span>300 percent</span> for free to your account.                        </p>
                 </div>
                 
                 <div class="panel">
@@ -633,8 +646,7 @@
                 </div>
                 
                 <div class="table-responsive-sm">
-                    <div id="w9" class="grid-view">
-                        <table class="table table-striped table-bordered"><thead>
+                    <table class="table table-striped table-bordered"><thead>
                             <tr>
                                 <th>#</th>
                                 <th>Amount</th>

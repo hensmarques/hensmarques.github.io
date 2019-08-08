@@ -8,12 +8,23 @@
     clear: both;
     margin: 0 auto 30px auto;
 
+    @media screen and (max-width: 768px){
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    
     li {
         list-style: none;
         text-align: center;
         position: relative;
         margin: 0 10px;
         float: left;
+
+        @media screen and (max-width: 768px){
+            max-width: calc(25% - 20px);
+            margin-bottom: 15px;
+        }
 
         a {
             display: inline-block;
@@ -62,6 +73,12 @@
         padding: 5px 15px 5px 10px;
         top: 0;
 
+        @media screen and (max-width: 768px){
+            flex: 0 0 100%;
+            max-width: 100%;
+            order: 1;
+        }
+
         svg {
             width: 30px;
             fill: $c_primary;
@@ -84,12 +101,29 @@
     position: relative;
 }
 
+
+@media screen and (max-width: 768px){
+    .auth-btn.head-item{ display: none; }
+
+    .main-nav .logo img{
+        height: auto;
+        max-height: 50px;
+    }
+}
+
 .search-li {
     border-radius: 5px;
     height: 50px;
     cursor: pointer;
     padding: 5px 15px 5px 10px;
     transition: width .3s;
+
+    @media screen and (max-width: 768px){
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 1;
+        margin-bottom: 15px;
+    }
 
     svg {
         width: 24px;
@@ -199,6 +233,16 @@
         width: 210px;
         padding: 5px 5px 0;
         height: 210px;
+
+        @media screen and (max-width: 768px){
+            flex: 0 0 calc(100vw - 40px);
+            max-width: calc(100vw - 40px);
+            height: calc(100vw - 40px);
+
+            .card-wrapper{
+                height: calc(100% - 40px);
+            }
+        }
     }
     
     .example {
