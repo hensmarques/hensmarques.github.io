@@ -1,0 +1,49 @@
+.game-page {
+    margin-top: 50px;
+    width: 85%;
+    margin: 100px auto auto;
+    display: flex;
+    background: #0b1f24;
+    border-radius: 5px;
+    overflow: hidden;
+    height: calc(100vh - 180px);
+
+    .iframe-wrapper{
+        height: 100%;
+    }
+
+    .block-game-page {
+        padding: 0;
+        width: 75%;
+    }
+
+    .block-settings-game-page {
+        padding: 10px;
+        display: inline-block;
+        right: -78px;
+        box-shadow: 0 2px 4px #030e13;
+        width: 25%;
+    }
+
+    .float_left{
+        float: left;
+        height: 100%;
+    }
+
+    .btn-return{
+        border-radius: 50%;
+        padding: 10px;
+        float: right;
+    }
+
+    .btn-full-screan, .btn-return {
+        display: inline-block;
+        transition: .1s;
+        box-shadow: 0 0 1px #166676;
+    }
+    
+    .btn-full-screan {
+        padding: 10px;
+        border-radius: 50px;
+    }
+}

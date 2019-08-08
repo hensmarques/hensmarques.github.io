@@ -729,7 +729,7 @@ input[type=date]:disabled::before {
 .secion-index-games .play-btn-fill {
   background: 0 0;
   box-shadow: 0 0 0 2px #b12509;
-  padding: 4px 25px;
+  padding: 15px 25px;
   top: 2px;
   color: #fff;
   border: none;
@@ -1553,6 +1553,57 @@ a:hover .button-text {
   color: #565D63;
   font-size: 13px;
   margin: 0;
+}
+
+.game-page {
+  margin-top: 50px;
+  width: 85%;
+  margin: 100px auto auto;
+  display: flex;
+  background: #0b1f24;
+  border-radius: 5px;
+  overflow: hidden;
+  height: calc(100vh - 180px);
+}
+
+.game-page .iframe-wrapper {
+  height: 100%;
+}
+
+.game-page .block-game-page {
+  padding: 0;
+  width: 75%;
+}
+
+.game-page .block-settings-game-page {
+  padding: 10px;
+  display: inline-block;
+  right: -78px;
+  box-shadow: 0 2px 4px #030e13;
+  width: 25%;
+}
+
+.game-page .float_left {
+  float: left;
+  height: 100%;
+}
+
+.game-page .btn-return {
+  border-radius: 50%;
+  padding: 10px;
+  float: right;
+}
+
+.game-page .btn-full-screan,
+.game-page .btn-return {
+  display: inline-block;
+  transition: 0.1s;
+  box-shadow: 0 0 1px #166676;
+}
+
+.game-page .btn-full-screan {
+  padding: 10px;
+  border-radius: 50px;
 }
 
 body {
