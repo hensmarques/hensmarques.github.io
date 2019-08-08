@@ -4,7 +4,6 @@
 
 .games_list_header {
     width: fit-content;
-    width: -moz-fit-content;
     clear: both;
     margin: 0 auto 30px auto;
 
@@ -22,7 +21,7 @@
         float: left;
 
         @media screen and (max-width: 768px){
-            max-width: calc(25% - 20px);
+            max-width: calc(33.3% - 20px);
             margin-bottom: 15px;
         }
 
@@ -183,11 +182,15 @@
         pointer-events: all;
         opacity: 1;
         max-height: 200px;
+
+        @include mobile{
+            max-height: none;
+        }
     }
 
     a.active {
         color: #fff;
-        box-shadow: 0 0 0 2px #ffaf00;
+        box-shadow: 0 0 0 2px $c_primary;
     }
 
     a {
@@ -207,7 +210,7 @@
 
         &:hover {
             text-decoration: none;
-            color: #ffaf00;
+            color: $c_primary;
             background: rgba(255,255,255,0.03);
         }
 

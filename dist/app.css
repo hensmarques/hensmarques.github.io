@@ -181,6 +181,29 @@ input[type=date]:disabled::before {
   display: none;
 }
 
+@media (max-width: 767px) {
+  .lang-no-reg-mobile {
+    display: block;
+  }
+}
+
+.sidebar-close {
+  padding-right: 14px;
+  padding-top: 5px;
+}
+
+.sidebar-close a {
+  font-size: 30px;
+  line-height: 1;
+  border: 1px solid #DE2445;
+  display: block;
+  border-radius: 50%;
+  width: 34px;
+  float: right;
+  text-align: center;
+  color: #DE2445;
+}
+
 .lang-no-reg-mobile div {
   line-height: 2;
   border-radius: 100px;
@@ -197,7 +220,7 @@ input[type=date]:disabled::before {
   display: inline;
   -webkit-filter: grayscale(91%);
           filter: grayscale(91%);
-  padding: 3px 0 2px 5px;
+  padding: 20px 0 0px 5px;
   width: 50%;
   border-radius: 5px;
   float: left;
@@ -207,7 +230,7 @@ input[type=date]:disabled::before {
 .mobile-link-lang.active {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
-  color: #ff9800;
+  color: #DE2445;
   box-sizing: border-box;
   background: #0b1f24;
   border: 1px solid #fff0;
@@ -287,7 +310,7 @@ input[type=date]:disabled::before {
 }
 
 .block_left-nav-cat a.menu__links-item .ico svg {
-  fill: #ff9800;
+  fill: #DE2445;
   width: 30px;
 }
 
@@ -383,8 +406,8 @@ input[type=date]:disabled::before {
 
 .games_list_header {
   width: -webkit-fit-content;
-  width: fit-content;
   width: -moz-fit-content;
+  width: fit-content;
   clear: both;
   margin: 0 auto 30px auto;
 }
@@ -407,7 +430,7 @@ input[type=date]:disabled::before {
 
 @media screen and (max-width: 768px) {
   .games_list_header li {
-    max-width: calc(25% - 20px);
+    max-width: calc(33.3% - 20px);
     margin-bottom: 15px;
   }
 }
@@ -577,9 +600,15 @@ input[type=date]:disabled::before {
   max-height: 200px;
 }
 
+@media (max-width: 767px) {
+  .sort_list.active {
+    max-height: none;
+  }
+}
+
 .sort_list a.active {
   color: #fff;
-  box-shadow: 0 0 0 2px #ffaf00;
+  box-shadow: 0 0 0 2px #DE2445;
 }
 
 .sort_list a {
@@ -600,7 +629,7 @@ input[type=date]:disabled::before {
 
 .sort_list a:hover {
   text-decoration: none;
-  color: #ffaf00;
+  color: #DE2445;
   background: rgba(255, 255, 255, 0.03);
 }
 
@@ -966,6 +995,7 @@ input[type=date]:disabled::before {
   margin-top: 80px;
   line-height: 24px;
   text-align: center;
+  color: white;
   padding: 20px 0 30px;
   text-shadow: 0 4px 10px #000;
   width: 100%;
@@ -1045,7 +1075,7 @@ input[type=date]:disabled::before {
   text-align: center;
   vertical-align: middle;
   border-bottom: 0;
-  color: #ff9800;
+  color: #DE2445;
   font-weight: 600;
   font-size: 17px;
   padding: 15px;
@@ -1263,7 +1293,7 @@ a:hover .button-text {
   height: 40px;
   top: 13px;
   margin-left: 2px;
-  color: #ff9800;
+  color: #DE2445;
   border-radius: 100px;
   padding: 2px 13px;
   font-size: 26px;
@@ -1300,6 +1330,22 @@ a:hover .button-text {
 
 .modal-transactions {
   margin-top: 70px;
+}
+
+.modal-transactions .history-filter {
+  max-width: 300px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.modal-transactions .history-filter label {
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #DE2445;
+}
+
+.modal-transactions .history-filter select {
+  height: 45px;
 }
 
 .modal-transactions .push-text-deposit {
@@ -1421,7 +1467,7 @@ a:hover .button-text {
 }
 
 .input-block-img p span {
-  color: #ff9800;
+  color: #DE2445;
   font-size: 14px;
   position: relative;
   top: 1px;
@@ -1468,7 +1514,7 @@ a:hover .button-text {
 }
 
 #docsCount {
-  color: #ff9800;
+  color: #DE2445;
   border-radius: 50px;
   box-shadow: 0 0 0 1px #56585d;
   padding: 4px 12px;
@@ -1697,5 +1743,10 @@ img {
   border: 3px solid white;
   color: white;
   font-size: 12px;
+}
+
+svg,
+svg path {
+  fill: #DE2445;
 }
 

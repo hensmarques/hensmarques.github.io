@@ -31,7 +31,7 @@
         margin-bottom: 0;
 
         span {
-            color: #ff9800;
+            color: $c_primary;
             font-size: 14px;
             position: relative;
             top: 1px;
@@ -80,7 +80,7 @@
 }
 
 #docsCount {
-    color: #ff9800;
+    color: $c_primary;
     border-radius: 50px;
     box-shadow: 0 0 0 1px #56585d;
     padding: 4px 12px;

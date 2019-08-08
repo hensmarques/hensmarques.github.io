@@ -1,6 +1,15 @@
 .modal-transactions{
     margin-top: 70px;
 
+    .history-filter{
+        max-width: 300px;
+        align-items: center;
+        margin-bottom: 15px;
+
+        label{ font-weight: bold; margin-bottom: 0; color: $c_primary }
+
+        select{ height: 45px; }
+    }
     
     .push-text-deposit {
         border-radius: 100px;

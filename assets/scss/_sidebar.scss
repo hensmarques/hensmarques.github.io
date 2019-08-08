@@ -37,6 +37,31 @@
 .hide, .lang-no-reg-mobile, .possible-dep-bonus-none-1, input[type=date]:disabled::before {
     display: none;
 }
+
+@include mobile{
+    .lang-no-reg-mobile{
+        display: block;
+    }
+
+}
+
+.sidebar-close{
+    padding-right: 14px;
+    padding-top: 5px;
+
+    a{
+        font-size: 30px;
+        line-height: 1;
+        border: 1px solid $c_primary;
+        display: block;
+        border-radius: 50%;
+        width: 34px;
+        float: right;
+        text-align: center;
+        color: $c_primary;
+    }
+}
+
 .lang-no-reg-mobile div {
     line-height: 2;
     border-radius: 100px;
@@ -50,7 +75,7 @@
 .mobile-link-lang {
     display: inline;
     filter: grayscale(91%);
-    padding: 3px 0 2px 5px;
+    padding: 20px 0 0px 5px;
     width: 50%;
     border-radius: 5px;
     float: left;
@@ -59,7 +84,7 @@
 
     &.active {
         filter: grayscale(0);
-        color: #ff9800;
+        color: $c_primary;
         box-sizing: border-box;
         background: #0b1f24;
         border: 1px solid #fff0;
@@ -137,7 +162,7 @@
             border-radius: 50px;
 
             svg {
-                fill: #ff9800;
+                fill: $c_primary;
                 width: 30px;
             }
         }

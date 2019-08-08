@@ -180,3 +180,7 @@ img{
         font-size: 12px;
     }
 }
+
+svg, svg path {
+    fill: $c_primary;
+}
