@@ -64,17 +64,6 @@
         a  { color: $c_primary; }
     }
     
-    .panel{
-        background: #0c1f24;
-        border-radius: 15px;
-        overflow: hidden;
-        padding: 40px;
-    
-        img.filtered{
-            filter: saturate(1.8) brightness(0.87);
-        }
-    }
-    
     .form-control{
         border-radius: 5px!important;
     }

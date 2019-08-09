@@ -400,6 +400,39 @@ input[type=date]:disabled::before {
   color: white;
 }
 
+.featured-cards {
+  margin: 0 40px 40px 40px;
+}
+
+.featured-cards .featured-card {
+  color: white;
+  height: 100%;
+}
+
+.featured-cards .featured-card h3 {
+  color: #DE2445;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.featured-cards .featured-card .badge {
+  background: #DE2445;
+  border-radius: 7px;
+  padding: 5px 10px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.featured-cards .featured-card .button-green {
+  padding: 4px 25px;
+  display: inline;
+  border-radius: 13px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .games_list_section {
   padding-top: 30px;
 }
@@ -864,18 +897,6 @@ input[type=date]:disabled::before {
 
 .md-modal .li-down-tabs.current a {
   color: #DE2445;
-}
-
-.md-modal .panel {
-  background: #0c1f24;
-  border-radius: 15px;
-  overflow: hidden;
-  padding: 40px;
-}
-
-.md-modal .panel img.filtered {
-  -webkit-filter: saturate(1.8) brightness(0.87);
-          filter: saturate(1.8) brightness(0.87);
 }
 
 .md-modal .form-control {
@@ -1566,6 +1587,16 @@ a:hover .button-text {
   height: calc(100vh - 180px);
 }
 
+.game-page.poker {
+  width: 100vw;
+  margin-top: 70px;
+  height: calc(100vh - 70px);
+}
+
+.game-page.poker #element {
+  width: 100% !important;
+}
+
 .game-page .iframe-wrapper {
   height: 100%;
 }
@@ -1604,6 +1635,35 @@ a:hover .button-text {
 .game-page .btn-full-screan {
   padding: 10px;
   border-radius: 50px;
+}
+
+.vr-casino-page {
+  margin-top: 70px;
+  color: white;
+}
+
+.vr-casino-banner {
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+
+.vr-casino-title {
+  color: #DE2445;
+  font-weight: bold;
+}
+
+.vr-casino-cards .panel {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.vr-casino-cards .panel > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 body {
@@ -1799,5 +1859,17 @@ img {
 svg,
 svg path {
   fill: #DE2445;
+}
+
+.panel {
+  background: #0c1f24;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.panel img.filtered {
+  -webkit-filter: saturate(1.8) brightness(0.87);
+          filter: saturate(1.8) brightness(0.87);
 }
 

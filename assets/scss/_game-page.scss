@@ -8,6 +8,16 @@
     overflow: hidden;
     height: calc(100vh - 180px);
 
+    &.poker{
+        width: 100vw;
+        margin-top: 70px;
+        height: calc(100vh - 70px);
+
+        #element{
+            width: 100% !important;
+        }
+    }
+
     .iframe-wrapper{
         height: 100%;
     }

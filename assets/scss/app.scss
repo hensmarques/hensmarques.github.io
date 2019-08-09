@@ -12,6 +12,7 @@ $c_primary: #DE2445;
 @import '_modal-profile';
 @import '_footer';
 @import '_game-page';
+@import '_vr-casino-page';
 
 body{
     background: #071518;
@@ -184,4 +185,15 @@ img{
 
 svg, svg path {
     fill: $c_primary;
+}
+
+.panel{
+    background: #0c1f24;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 40px;
+
+    img.filtered{
+        filter: saturate(1.8) brightness(0.87);
+    }
 }
