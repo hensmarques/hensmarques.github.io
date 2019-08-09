@@ -128,7 +128,7 @@
         </li>
         
         <li>
-            <a href="/vr-casino.html">
+            <a href="/vr-casino.php">
                 <div class="ico">
                     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="Layer 2" id="Layer_2"><path d="M29,8H3A1,1,0,0,0,2,9V23a1,1,0,0,0,1,1H13a1,1,0,0,0,1-.83l.66-4A1.36,1.36,0,0,1,16,18a1.37,1.37,0,0,1,1.36,1.26l.66,3.9A1,1,0,0,0,19,24H29a1,1,0,0,0,1-1V9A1,1,0,0,0,29,8ZM28,22H19.85l-.51-3a3.36,3.36,0,0,0-6.67-.06L12.15,22H4V10H28Z"/><path d="M8.5,19A3.5,3.5,0,1,0,5,15.5,3.5,3.5,0,0,0,8.5,19Zm0-5A1.5,1.5,0,1,1,7,15.5,1.5,1.5,0,0,1,8.5,14Z"/><path d="M23.5,19A3.5,3.5,0,1,0,20,15.5,3.5,3.5,0,0,0,23.5,19Zm0-5A1.5,1.5,0,1,1,22,15.5,1.5,1.5,0,0,1,23.5,14Z"/></g></svg>
                 </div>
@@ -188,7 +188,7 @@
                 <div class="card-overlay">
                     <div class="card-name">Book of ra deluxe</div>
                     
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a>
                     <a href="/gamesbank/play/hq-3d-slots/BookOfRaDeluxe/demo" class="demo">Demo</a>
@@ -201,7 +201,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/nanoili/Mines.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Mines</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a>
                     <a href="/gamesbank/play/nanoili/Mines/demo" class="demo">Demo</a>
@@ -214,7 +214,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/outcome/qso_sevens.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Sevens High</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/outcome/qso_sevens/demo" class="demo">Demo</a>
                 </div>
@@ -226,7 +226,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/nanoili/Wheel.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Wheel</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/nanoili/Wheel/demo" class="demo">Demo</a>
                 </div>
@@ -238,7 +238,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/outcome/dynastyofra_gt_html.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Dynasty of Ra</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/outcome/dynastyofra_gt_html/demo" class="demo">Demo</a>
                 </div>
@@ -250,7 +250,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/nanoili/Dice.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Dice</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/nanoili/Dice/demo" class="demo">Demo</a>
                 </div>
@@ -262,7 +262,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/tvbet/Poker.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Poker</div>
-                    <a href="/game-poker.html" class="play-btn play-btn-fill">
+                    <a href="/game-poker.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/tvbet/Poker/demo" class="demo">Demo</a>
                 </div>
@@ -274,7 +274,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/tvbet/21Bet.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">21Bet</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/tvbet/21Bet/demo" class="demo">Demo</a>
                 </div>
@@ -286,7 +286,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/tvbet/5Bet.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">5Bet</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/tvbet/5Bet/demo" class="demo">Demo</a>
                 </div>
@@ -298,7 +298,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/tvbet/7Bet.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">7Bet</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/tvbet/7Bet/demo" class="demo">Demo</a>
                 </div>
@@ -310,7 +310,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/tvbet/Keno.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Keno</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/tvbet/Keno/demo" class="demo">Demo</a>
                 </div>
@@ -322,7 +322,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/tvbet/Jokerbet.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Jokerbet</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/tvbet/Jokerbet/demo" class="demo">Demo</a>
                 </div>
@@ -334,7 +334,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/JackAndBeanstalk_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Jack And Beanstalk</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/JackAndBeanstalk/demo" class="demo">Demo</a>
                 </div>
@@ -346,7 +346,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/outcome/super_hot_40_html.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Super Hot 40</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/outcome/super_hot_40_html/demo" class="demo">Demo</a>
                 </div>
@@ -358,7 +358,7 @@
                 <div class="card-img wrapper" style="background-image: url('uploads/5b8e1aee6f48e.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">European Roulette</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/outcome/european_roulette/demo" class="demo">Demo</a>
                 </div>
@@ -370,7 +370,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/GhostPirates_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Ghost Pirates</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/GhostPirates/demo" class="demo">Demo</a>
                 </div>
@@ -382,7 +382,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/coolair//lucky_lady_charm_deluxe.png');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Lucky Lady Charm Deluxe</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/coolair/37/demo" class="demo">Demo</a>
                 </div>
@@ -394,7 +394,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://24x.bet/common/outcome/super_hot_20_html.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Super Hot 20</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/outcome/super_hot_20_html/demo" class="demo">Demo</a>
                 </div>
@@ -406,7 +406,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/JokerPro_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Joker Pro</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/JokerPro/demo" class="demo">Demo</a>
                 </div>
@@ -418,7 +418,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/SecretOfTheStones_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Secret Of The Stones</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/SecretOfTheStones/demo" class="demo">Demo</a>
                 </div>
@@ -430,7 +430,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/ButterflyStaxx_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Butterfly Staxx</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/ButterflyStaxx/demo" class="demo">Demo</a>
                 </div>
@@ -442,7 +442,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/CaptainsTreasurePro_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Captain's Treasure Pro</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/CaptainsTreasurePro/demo" class="demo">Demo</a>
                 </div>
@@ -454,7 +454,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/AngryBirds_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Angry birds</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/AngryBirds/demo" class="demo">Demo</a>
                 </div>
@@ -466,7 +466,7 @@
                 <div class="card-img wrapper" style="background-image: url('https://int.best-casino.games//game/icons/BookOfMoorhuhn_300_221.jpg');"></div>
                 <div class="card-overlay">
                     <div class="card-name">Book Of Moorhuhn</div>
-                    <a href="/game.html" class="play-btn play-btn-fill">
+                    <a href="/game.php" class="play-btn play-btn-fill">
                         <span>Play</span>
                     </a><a href="/gamesbank/play/hq-3d-slots/BookOfMoorhuhn/demo" class="demo">Demo</a>
                 </div>
