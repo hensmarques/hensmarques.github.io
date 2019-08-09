@@ -22,8 +22,30 @@
 
     p{
         text-align: center;
-        color: #565D63;
         font-size: 13px;
         margin: 0;
     }
+
+    p, h1{
+        color: #565D63;
+    }
+}
+
+.footer-menus{
+    margin-bottom: 40px;
+    
+    &-title{
+        text-transform: uppercase;
+        color: rgba(255,255,255, 0.7);
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    ul{
+        margin: 0 !important;
+        padding: 0;
+        list-style: none;
+    }
+
+    a{ color: #565D63 !important}
 }
