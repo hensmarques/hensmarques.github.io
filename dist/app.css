@@ -1455,6 +1455,10 @@ a:hover .button-text {
   border-radius: 15px;
 }
 
+#tab_withdraw .form-control {
+  border-radius: 5px !important;
+}
+
 .modal-profile {
   top: 70px;
 }
