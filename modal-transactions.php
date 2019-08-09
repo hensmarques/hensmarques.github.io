@@ -126,13 +126,13 @@
                 <form action="" class="row justify-content-center">
                     <div class="col-md-4">
                         <p>Your current available balance</p>
-                        <div class="push-text-deposit ta-left p-0"><p><span class="text-green">$ 2,850.00</span>USD</p></div>
+                        <div class="push-text-deposit ta-left p-0"><p><span class="text-green">$ 2,850.00</span> USD</p></div>
 
                         <label style="margin-top: 30px;">Amount to withdraw</label>
                         <div class="input-group mb-1">
                             <input type="text" class="form-control" id="depositAmount">
                             <div class="input-group-append">
-                                <span class="input-group-text" id="inputGroupPrepend"> USD</span>
+                                <span class="input-group-text" id="inputGroupPrepend">USD</span>
                             </div>                            
                         </div>
                     </div>

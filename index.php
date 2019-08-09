@@ -1,17 +1,29 @@
 <?php include ('header.php') ?>
         
 <div class="slider">
-    <div class="slide">
-        <img src="/assets/images/sliders/slide-1.png" alt="">
-    </div>
-    <div class="arrows">
-        <a href="#" class="left">
-            <i class="fas fa-chevron-left"></i>
-        </a>
-        <a href="#" class="right">
-            <i class="fas fa-chevron-right"></i>
-        </a>
-    </div>
+    <?php for($i = 1; $i <= 5; $i++): ?>
+        <div class="slide <?= $i == 1 ? 'active' : '' ?>" data-index="<?= $i ?>">
+            <img src="/assets/images/sliders/<?= $i ?>.png" class="img-desktop" alt="">
+            <img src="/assets/images/sliders/<?= $i ?>_m.png" class="img-mobile" alt="">
+
+            <div class="arrows">
+                <a href="#" class="left" onclick="setSliderIndex('.slider', <?= $i == 1 ? '5' : $i - 1; ?>)">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#" class="right" onclick="setSliderIndex('.slider', <?= $i == 5 ? '1' : $i + 1; ?>)">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    <?php endfor; ?>
+
+    <script>
+        function setSliderIndex(sliderSelector, index){
+            let $slides = $(sliderSelector + ' .slide');
+            $slides.removeClass('active');
+            $(sliderSelector + ' .slide[data-index="'+index+'"]').addClass('active');
+        }
+    </script>
 </div>
 
 <div class="featured-cards row">
