@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginModal/> Login Form renders and matches the snapshot 1`] = `
+<div
+  className="login-modal"
+>
+  <Connect(Modal)
+    className="marketing-modal"
+  >
+    <Form
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-instructions"
+        key="0"
+      />
+      <div
+        className="login-form"
+        key="1"
+      >
+        <TextInput
+          className=""
+          disabled={true}
+          errorMessages={Array []}
+          hideInput={false}
+          name="Email"
+          onChange={[Function]}
+          placeholder="Email"
+          placeholderParam={Object {}}
+          translation="Email"
+          type="text"
+          value=""
+          writeOnce={false}
+        />
+        <TextInput
+          className=""
+          disabled={true}
+          errorMessages={Array []}
+          hideInput={true}
+          name="Password"
+          onChange={[Function]}
+          placeholder="Password"
+          placeholderParam={Object {}}
+          translation="Password"
+          type="text"
+          value=""
+          writeOnce={false}
+        />
+      </div>
+      <div
+        className="form-message"
+        key="2"
+      >
+        <p
+          className="forgot-password"
+        >
+          Forgot your password?
+        </p>
+        <p>
+          <span
+            className="link"
+            onClick={[Function]}
+          >
+            Click here to reset.
+          </span>
+        </p>
+      </div>
+      <Submit
+        className=""
+        formValid=""
+        onSubmit={[Function]}
+        value="LOGIN"
+      />
+    </Form>
+  </Connect(Modal)>
+  <Link
+    onClick={[Function]}
+    replace={false}
+    to="/home"
+  >
+    <img
+      className="xIcon"
+      src="/images/icons/xThin.svg"
+    />
+  </Link>
+</div>
+`;
+
+exports[`<LoginModal/> Verification Code Form renders and matches the snapshot 1`] = `
+<div
+  className="login-modal"
+>
+  <Connect(Modal)
+    className="marketing-modal"
+  >
+    <Form
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-instructions"
+        key="0"
+      >
+        Enter verification code from Google Authenticator to continue logging in.
+      </div>
+      <div
+        className="verification-code-form"
+        key="1"
+      >
+        <TextInput
+          className="error"
+          disabled={true}
+          errorMessages={Array []}
+          hideInput={false}
+          name="Verification Code"
+          onChange={[Function]}
+          placeholder="Verification Code"
+          placeholderParam={Object {}}
+          translation="Verification Code"
+          type="text"
+          value=""
+          writeOnce={false}
+        />
+      </div>
+      <div
+        className="form-message"
+        key="2"
+      >
+        <p
+          className="forgot-password"
+        >
+          Forgot your password?
+        </p>
+        <p>
+          <span
+            className="link"
+            onClick={[Function]}
+          >
+            Click here to reset.
+          </span>
+        </p>
+      </div>
+      <Submit
+        className=""
+        formValid=""
+        onSubmit={[Function]}
+        value="LOGIN"
+      />
+    </Form>
+  </Connect(Modal)>
+  <Link
+    onClick={[Function]}
+    replace={false}
+    to="/home"
+  >
+    <img
+      className="xIcon"
+      src="/images/icons/xThin.svg"
+    />
+  </Link>
+</div>
+`;

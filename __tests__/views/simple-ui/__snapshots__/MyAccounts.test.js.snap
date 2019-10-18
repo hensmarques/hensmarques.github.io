@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyAccounts/> renders and matches the snapshot 1`] = `
+<Connect(SimpleUiWrapper)
+  description=""
+  pageClass="my-accounts"
+  pageHeader=""
+  title="My Accounts"
+>
+  <Connect(ErrorBoundary)>
+    <Connect(CurrentBalances)
+      modal=""
+      showModal={[Function]}
+    />
+  </Connect(ErrorBoundary)>
+  <div
+    className="component my-accounts-table"
+    id="my-accounts-table"
+  >
+    <Connect(ErrorBoundary)>
+      <Connect(MyAccountsTablesContainer) />
+    </Connect(ErrorBoundary)>
+  </div>
+</Connect(SimpleUiWrapper)>
+`;

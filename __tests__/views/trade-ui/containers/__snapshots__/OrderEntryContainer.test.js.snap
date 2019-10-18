@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderEntryContainer/> renders and matches the snapshot 1`] = `
+<WidgetWrapper
+  classNames={
+    Array [
+      "order-entry",
+    ]
+  }
+  tabs={
+    Array [
+      "Order Entry",
+    ]
+  }
+>
+  <Connect(OrderEntry) />
+</WidgetWrapper>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Settings/> renders and matches the snapshot 1`] = `
+<Connect(SimpleUiWrapper)
+  description="By keeping your account information up to date you allow us to provide the prompt and high quality service you deserve. Your changes will be effective immediately."
+  pageClass="settings"
+  pageHeader="Update Account Information"
+  title="Settings"
+>
+  <div>
+    <Connect(ErrorBoundary)>
+      <Connect(AccountInformation)
+        translation="SETTINGS"
+      />
+    </Connect(ErrorBoundary)>
+    <Connect(ErrorBoundary)>
+      <Connect(SecuritySettings)
+        translation="SETTINGS"
+      />
+    </Connect(ErrorBoundary)>
+  </div>
+</Connect(SimpleUiWrapper)>
+`;

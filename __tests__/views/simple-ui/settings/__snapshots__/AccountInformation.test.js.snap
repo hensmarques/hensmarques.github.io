@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountInformation/> renders, gets user profile + schema, and matches the snapshot 1`] = `
+<SettingsWrapper
+  name="Account Information"
+>
+  <Connect(FormContainer)
+    className="account-form"
+    fields={
+      Array [
+        Object {
+          "errorMessages": Array [],
+          "name": "Given name",
+          "placeholder": "John",
+          "required": true,
+          "type": "text",
+          "writeOnce": true,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "Middle name",
+          "placeholder": "Peter",
+          "required": false,
+          "type": "text",
+          "writeOnce": true,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "Surname",
+          "placeholder": "Doe",
+          "required": true,
+          "type": "text",
+          "writeOnce": true,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "Phone number",
+          "placeholder": "123456789",
+          "required": false,
+          "type": "text",
+          "writeOnce": false,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "Date of birth",
+          "required": true,
+          "type": "date",
+          "writeOnce": false,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "Country",
+          "options": Array [
+            Object {
+              "name": "United States",
+            },
+            Object {
+              "name": "France",
+            },
+            Object {
+              "name": "-",
+            },
+          ],
+          "placeholder": "Country",
+          "required": true,
+          "type": "select",
+          "writeOnce": false,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "City",
+          "placeholder": "New York",
+          "required": true,
+          "type": "text",
+          "writeOnce": false,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "Street address",
+          "placeholder": "Main street",
+          "required": true,
+          "type": "text",
+          "writeOnce": false,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "Postal code",
+          "placeholder": "ABC123",
+          "required": false,
+          "type": "text",
+          "writeOnce": false,
+        },
+        Object {
+          "errorMessages": Array [],
+          "name": "State/Province",
+          "placeholder": "New York",
+          "required": true,
+          "type": "text",
+          "writeOnce": false,
+        },
+      ]
+    }
+    initialValues={
+      Object {
+        "City": "New York",
+        "Country": "United States",
+        "Date of birth": 315529200000,
+        "Document": undefined,
+        "Given name": "John",
+        "Middle name": "Peter",
+        "Phone number": "123456789",
+        "Postal code": "ABC123",
+        "State/Province": "New York",
+        "Street address": "Main street",
+        "Surname": "Doe",
+      }
+    }
+    onSubmit={null}
+  />
+  <Button
+    className="button"
+    disabled={false}
+    loading={false}
+    loadingStatus={false}
+    onClick={[Function]}
+    type="button"
+  >
+    UPDATE
+  </Button>
+  <Connect(UpdatePassword) />
+</SettingsWrapper>
+`;

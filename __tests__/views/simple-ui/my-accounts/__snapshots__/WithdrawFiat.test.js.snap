@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WithdrawFiat/> renders and matches the snapshot 1`] = `
+<Connect(FormContainer)
+  buttons={
+    Array [
+      Object {
+        "name": "Close",
+        "onClick": [Function],
+      },
+    ]
+  }
+  className="withdraw-fiat-form"
+  fields={
+    Array [
+      Object {
+        "name": "Amount",
+        "required": true,
+        "translation": "WITHDRAW.AMOUNT",
+        "type": "text",
+        "validations": Object {
+          "onBlur": Array [
+            Object {
+              "name": "amount",
+            },
+          ],
+        },
+      },
+    ]
+  }
+  key="withdraw-fiat-form"
+  onSubmit={[Function]}
+  submitText="Submit"
+  translation="WITHDRAW_FIAT"
+  validationData={
+    Object {
+      "currency": "BTC",
+    }
+  }
+/>
+`;

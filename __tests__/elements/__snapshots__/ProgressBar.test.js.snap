@@ -1,0 +1,2851 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar with full progress matches snapshot 1`] = `
+<div
+  className="progress-bar"
+  style={
+    Object {
+      "display": "flex",
+      "height": 9,
+    }
+  }
+>
+  <div
+    className="left-bar-cap"
+    style={
+      Object {
+        "background": "white",
+        "border": "1px solid white",
+        "borderBottomLeftRadius": 4.5,
+        "borderRight": "none",
+        "borderTopLeftRadius": 4.5,
+        "width": 4.5,
+      }
+    }
+  />
+  <div
+    className="bar"
+    style={
+      Object {
+        "borderBottom": "1px solid white",
+        "borderTop": "1px solid white",
+        "display": "flex",
+      }
+    }
+  >
+    <div
+      key="0"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="1"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="2"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="3"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="4"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="5"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="6"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="7"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="8"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="9"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="10"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="11"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="12"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="13"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="14"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="15"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="16"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="17"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="18"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="19"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="20"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="21"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="22"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="23"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="24"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="25"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="26"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="27"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="28"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="29"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="30"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="31"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="32"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="33"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="34"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="35"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="36"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="37"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="38"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="39"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="40"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="41"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="42"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="43"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="44"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="45"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="46"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="47"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="48"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="49"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="50"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="51"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="52"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="53"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="54"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="55"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="56"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="57"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="58"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="59"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="60"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="61"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="62"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="63"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="64"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="65"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="66"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="67"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="68"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="69"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="70"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="71"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="72"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="73"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="74"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="75"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="76"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="77"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="78"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="79"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="80"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="81"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="82"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="83"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="84"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="85"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="86"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="87"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="88"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="89"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="90"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="91"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="92"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="93"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="94"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="95"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="96"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="97"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="98"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="99"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="right-bar-cap"
+    style={
+      Object {
+        "background": "white",
+        "border": "1px solid white",
+        "borderBottomRightRadius": 4.5,
+        "borderLeft": "none",
+        "borderTopRightRadius": 4.5,
+        "width": 4.5,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ProgressBar with half progress matches snapshot 1`] = `
+<div
+  className="progress-bar"
+  style={
+    Object {
+      "display": "flex",
+      "height": 9,
+    }
+  }
+>
+  <div
+    className="left-bar-cap"
+    style={
+      Object {
+        "background": "white",
+        "border": "1px solid white",
+        "borderBottomLeftRadius": 4.5,
+        "borderRight": "none",
+        "borderTopLeftRadius": 4.5,
+        "width": 4.5,
+      }
+    }
+  />
+  <div
+    className="bar"
+    style={
+      Object {
+        "borderBottom": "1px solid white",
+        "borderTop": "1px solid white",
+        "display": "flex",
+      }
+    }
+  >
+    <div
+      key="0"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="1"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="2"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="3"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="4"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="5"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="6"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="7"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="8"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="9"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="10"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="11"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="12"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="13"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="14"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="15"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="16"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="17"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="18"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="19"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="20"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="21"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="22"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="23"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="24"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="25"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="26"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="27"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="28"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="29"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="30"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="31"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="32"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="33"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="34"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="35"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="36"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="37"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="38"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="39"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="40"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="41"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="42"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="43"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="44"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="45"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="46"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="47"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="48"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="49"
+      style={
+        Object {
+          "background": "white",
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="50"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="51"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="52"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="53"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="54"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="55"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="56"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="57"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="58"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="59"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="60"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="61"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="62"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="63"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="64"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="65"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="66"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="67"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="68"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="69"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="70"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="71"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="72"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="73"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="74"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="75"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="76"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="77"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="78"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="79"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="80"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="81"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="82"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="83"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="84"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="85"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="86"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="87"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="88"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="89"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="90"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="91"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="92"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="93"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="94"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="95"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="96"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="97"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="98"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="99"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="right-bar-cap"
+    style={
+      Object {
+        "background": null,
+        "border": "1px solid white",
+        "borderBottomRightRadius": 4.5,
+        "borderLeft": "none",
+        "borderTopRightRadius": 4.5,
+        "width": 4.5,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ProgressBar with no progress matches snapshot 1`] = `
+<div
+  className="progress-bar"
+  style={
+    Object {
+      "display": "flex",
+      "height": 9,
+    }
+  }
+>
+  <div
+    className="left-bar-cap"
+    style={
+      Object {
+        "background": null,
+        "border": "1px solid white",
+        "borderBottomLeftRadius": 4.5,
+        "borderRight": "none",
+        "borderTopLeftRadius": 4.5,
+        "width": 4.5,
+      }
+    }
+  />
+  <div
+    className="bar"
+    style={
+      Object {
+        "borderBottom": "1px solid white",
+        "borderTop": "1px solid white",
+        "display": "flex",
+      }
+    }
+  >
+    <div
+      key="0"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="1"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="2"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="3"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="4"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="5"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="6"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="7"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="8"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="9"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="10"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="11"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="12"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="13"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="14"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="15"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="16"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="17"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="18"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="19"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="20"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="21"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="22"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="23"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="24"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="25"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="26"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="27"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="28"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="29"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="30"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="31"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="32"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="33"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="34"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="35"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="36"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="37"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="38"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="39"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="40"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="41"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="42"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="43"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="44"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="45"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="46"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="47"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="48"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="49"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="50"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="51"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="52"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="53"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="54"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="55"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="56"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="57"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="58"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="59"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="60"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="61"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="62"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="63"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="64"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="65"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="66"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="67"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="68"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="69"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="70"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="71"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="72"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="73"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="74"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="75"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="76"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="77"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="78"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="79"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="80"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="81"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="82"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="83"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="84"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="85"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="86"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="87"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="88"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="89"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="90"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="91"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="92"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="93"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="94"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="95"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="96"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="97"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="98"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+    <div
+      key="99"
+      style={
+        Object {
+          "background": null,
+          "width": 1,
+        }
+      }
+    />
+  </div>
+  <div
+    className="right-bar-cap"
+    style={
+      Object {
+        "background": null,
+        "border": "1px solid white",
+        "borderBottomRightRadius": 4.5,
+        "borderLeft": "none",
+        "borderTopRightRadius": 4.5,
+        "width": 4.5,
+      }
+    }
+  />
+</div>
+`;

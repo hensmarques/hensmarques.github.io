@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav/> Non-authenticated user view renders with signup and login links and matches snapshot 1`] = `
+<nav
+  className="nav"
+>
+  <div
+    className="nav-container"
+  >
+    <Scrollchor
+      className="logo"
+      to="#top"
+    >
+      <img
+        className="logo-img"
+        src="images/logos/company-logo-icon.png"
+      />
+    </Scrollchor>
+    <ul
+      className="nav-items"
+    >
+      <li>
+        <Scrollchor
+          animate={
+            Object {
+              "offset": -100,
+            }
+          }
+          to="#features"
+        >
+          Features
+        </Scrollchor>
+      </li>
+      <li>
+        <Scrollchor
+          animate={
+            Object {
+              "offset": -100,
+            }
+          }
+          to="#about"
+        >
+          About Us
+        </Scrollchor>
+      </li>
+      <li>
+        <Scrollchor
+          animate={
+            Object {
+              "offset": -100,
+            }
+          }
+          to="#vision"
+        >
+          Our Vision
+        </Scrollchor>
+      </li>
+      <li
+        className="signup"
+      >
+        <Link
+          replace={false}
+          to="signup"
+        >
+          Sign Up
+        </Link>
+      </li>
+      <li>
+        <Link
+          className="login-btn login"
+          replace={false}
+          to="login"
+        >
+          Login
+        </Link>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

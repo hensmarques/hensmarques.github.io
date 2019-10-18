@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner/> renders and matches the snapshot 1`] = `
+<div
+  className="loader-animation "
+>
+  <div
+    className="lds-ring"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderBookTradesContainer/> renders and matches the snapshot 1`] = `
+<WidgetWrapper
+  classNames={
+    Array [
+      "order-book",
+      "recent-trades",
+    ]
+  }
+  tabs={
+    Array [
+      "Order Book",
+      "Recent Trades",
+    ]
+  }
+>
+  <Connect(OrderBook) />
+  <Connect(RecentTrades) />
+</WidgetWrapper>
+`;

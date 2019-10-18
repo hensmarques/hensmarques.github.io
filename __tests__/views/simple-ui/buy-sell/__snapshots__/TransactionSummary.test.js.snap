@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransactionSummary/> renders a buy transaction summary and matches the snapshot 1`] = `
+<div>
+  <h3>
+    Transaction Summary
+  </h3>
+  <div
+    className="summary-wrapper"
+  >
+    <p>
+      Total Amount ≈
+    </p>
+    <span>
+      3000 USD
+    </span>
+    <br />
+    <p>
+      Transaction Fee ≈
+    </p>
+    <span>
+      0.00150000
+    </span>
+    <br />
+    <p>
+      Net Amount Received ≈
+    </p>
+    <span>
+      1 BTC
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<TransactionSummary/> renders a sell transaction summary and matches the snapshot 1`] = `
+<div>
+  <h3>
+    Transaction Summary
+  </h3>
+  <div
+    className="summary-wrapper"
+  >
+    <p>
+      Total Amount ≈
+    </p>
+    <span>
+      1 BTC
+    </span>
+    <br />
+    <p>
+      Transaction Fee ≈
+    </p>
+    <span>
+      0.00150000
+    </span>
+    <br />
+    <p>
+      Net Amount Received ≈
+    </p>
+    <span>
+      3000 USD
+    </span>
+  </div>
+</div>
+`;

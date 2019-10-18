@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main/> renders and matches the snapshot 1`] = `
+<div
+  id="top"
+>
+  <div
+    id="splash-hero-banner-wrapper"
+  >
+    <Connect(Nav) />
+    <div
+      className="top-container"
+    >
+      <img
+        className="main-logo"
+        src="images/logos/company-logo-white.png"
+      />
+    </div>
+    <div
+      className="mobileLogin only-show-on-mobile"
+    >
+      <Link
+        replace={false}
+        to="/login"
+      >
+        <button
+          className="login-btn"
+          to="/login"
+        >
+          Login
+        </button>
+      </Link>
+      <Link
+        className="signup"
+        replace={false}
+        to="/signup"
+      >
+        Sign Up
+      </Link>
+    </div>
+  </div>
+  <Features />
+  <BuyCrypto />
+  <About />
+  <Footer />
+</div>
+`;

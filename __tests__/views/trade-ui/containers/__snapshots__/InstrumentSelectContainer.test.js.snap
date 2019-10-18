@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InstrumentSelectContainer/> renders and matches the snapshot 1`] = `
+<WidgetWrapper
+  classNames={
+    Array [
+      "instrument-select",
+    ]
+  }
+  tabs={
+    Array [
+      "Instruments",
+    ]
+  }
+>
+  <Connect(InstrumentSelect) />
+   
+</WidgetWrapper>
+`;

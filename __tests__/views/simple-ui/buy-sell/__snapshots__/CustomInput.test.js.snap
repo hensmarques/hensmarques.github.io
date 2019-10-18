@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomInput/> renders the custom input component for a buy transaction and matches the snapshot 1`] = `
+<div>
+  <h3>
+    Select Amount to  buy
+  </h3>
+  <label>
+    BTC
+  </label>
+  <TextInput
+    base="base"
+    className="input-quantity-custom "
+    disabled={true}
+    errorMessages={Array []}
+    hideInput={false}
+    name="basevalue"
+    onChange={[Function]}
+    placeholder="0"
+    placeholderParam={Object {}}
+    translation="BUY_SELL_CUSTOM"
+    type="text"
+    value="1"
+    writeOnce={false}
+  />
+  <label>
+    USD
+  </label>
+  <TextInput
+    className=""
+    disabled={true}
+    errorMessages={Array []}
+    hideInput={false}
+    name="quotevalue"
+    onChange={[Function]}
+    placeholder="0"
+    placeholderParam={Object {}}
+    translation="BUY_SELL_CUSTOM"
+    type="text"
+    value="3000"
+    writeOnce={false}
+  />
+  <p>
+    Enter the amount of BTC you wish to  buy. You may enter the amount either directly in BTC units, or in the equivalent amount of USD.
+  </p>
+</div>
+`;
+
+exports[`<CustomInput/> renders the custom input component for a sell transaction and matches the snapshot 1`] = `
+<div>
+  <h3>
+    Select Amount to  sell
+  </h3>
+  <label>
+    BTC
+  </label>
+  <TextInput
+    base="base"
+    className="input-quantity-custom "
+    disabled={true}
+    errorMessages={Array []}
+    hideInput={false}
+    name="basevalue"
+    onChange={[Function]}
+    placeholder="0"
+    placeholderParam={Object {}}
+    translation="BUY_SELL_CUSTOM"
+    type="text"
+    value="1"
+    writeOnce={false}
+  />
+  <label>
+    USD
+  </label>
+  <TextInput
+    className=""
+    disabled={true}
+    errorMessages={Array []}
+    hideInput={false}
+    name="quotevalue"
+    onChange={[Function]}
+    placeholder="0"
+    placeholderParam={Object {}}
+    translation="BUY_SELL_CUSTOM"
+    type="text"
+    value="3000"
+    writeOnce={false}
+  />
+  <p>
+    Enter the amount of BTC you wish to  sell. You may enter the amount either directly in BTC units, or in the equivalent amount of USD.
+  </p>
+</div>
+`;

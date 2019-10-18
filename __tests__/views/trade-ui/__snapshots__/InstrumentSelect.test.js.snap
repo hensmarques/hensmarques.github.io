@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InstrumentSelect/> renders and matches the snapshot 1`] = `
+<Fragment>
+  <div
+    className="instrument-select-input"
+  >
+    <i
+      className="fal fa-search"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Search Pairs"
+      value=""
+    />
+  </div>
+  <div
+    className="instruments"
+  >
+    <ScrollBar
+      className=""
+      component="div"
+      containerRef={[Function]}
+    >
+      <div
+        className="instrument-row selected"
+        key="BTCUSD"
+        onClick={[Function]}
+      >
+        <span
+          className="instrument-symbol"
+        >
+          BTCUSD
+        </span>
+      </div>
+      <div
+        className="instrument-row "
+        key="ETHBTC"
+        onClick={[Function]}
+      >
+        <span
+          className="instrument-symbol"
+        >
+          ETHBTC
+        </span>
+      </div>
+    </ScrollBar>
+  </div>
+</Fragment>
+`;

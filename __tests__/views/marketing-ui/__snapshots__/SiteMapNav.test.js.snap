@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SiteMapNav/> renders and matches the snapshot 1`] = `
+<ul
+  className="nav-items"
+>
+  <li>
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/terms"
+    >
+      Terms
+    </NavLink>
+  </li>
+  <li>
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/privacy"
+    >
+      Privacy policy
+    </NavLink>
+  </li>
+</ul>
+`;

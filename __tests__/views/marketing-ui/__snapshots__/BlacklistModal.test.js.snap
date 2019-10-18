@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlacklistModal/> renders and matches the snapshot 1`] = `
+<Connect(Modal)
+  className="blacklist-modal"
+  onClose={[MockFunction]}
+>
+  <div
+    className="modal-blacklist-content"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Cointrader is not available in your country.",
+      }
+    }
+  />
+  <div
+    className="blacklist-button-container"
+  >
+    <Button
+      className=""
+      disabled={false}
+      loading={false}
+      loadingStatus={false}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      OK
+    </Button>
+  </div>
+</Connect(Modal)>
+`;

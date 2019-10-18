@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignupModal/> Basic rendering the signup form matches the snapshot 1`] = `
+<div>
+  <Connect(Modal)
+    allowSubmit={false}
+    className="marketing-modal"
+  >
+    <Spinner />
+  </Connect(Modal)>
+  <Link
+    replace={false}
+    to="/home"
+  >
+    <img
+      className="xIcon"
+      src="images/icons/xThin.svg"
+    />
+  </Link>
+</div>
+`;

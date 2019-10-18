@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OpenOrders/> renders and matches the snapshot 1`] = `
+<Fragment>
+  <div
+    className="table open-orders-table"
+  >
+    <div
+      className="table-header open-orders-header"
+    >
+      <span
+        className="open-orders-account"
+      >
+        #
+      </span>
+      <span
+        className="open-orders-instrument"
+      >
+        Pair
+      </span>
+      <span
+        className="open-orders-side"
+      >
+        Side
+      </span>
+      <span
+        className="open-orders-type"
+      >
+        Type
+      </span>
+      <span
+        className="open-orders-type"
+      >
+        TIF
+      </span>
+      <span
+        className="open-orders-quantity"
+      >
+        Quantity
+      </span>
+      <span
+        className="open-orders-price"
+      >
+        Price
+      </span>
+      <span
+        className="open-orders-fee"
+      >
+        Fee
+      </span>
+      <span
+        className="open-orders-time"
+      >
+        Time
+      </span>
+      <span
+        className="open-orders-time"
+      >
+        Expiry
+      </span>
+      <span
+        className="open-orders-status"
+      >
+        Status
+      </span>
+      <span
+        className="open-orders-actions"
+      >
+        Actions
+      </span>
+    </div>
+    <div
+      className="table-rows open-orders-rows"
+    >
+      <ScrollBar
+        className=""
+        component="div"
+        containerRef={[Function]}
+      >
+        <div
+          className="table-row orders-row"
+          key="0"
+        />
+        <div
+          className="table-row orders-row"
+          key="1"
+        />
+        <div
+          className="table-row orders-row"
+          key="2"
+        />
+        <div
+          className="table-row orders-row"
+          key="3"
+        />
+        <div
+          className="table-row orders-row"
+          key="4"
+        />
+        <div
+          className="table-row orders-row"
+          key="5"
+        />
+        <div
+          className="table-row orders-row"
+          key="6"
+        />
+        <div
+          className="table-row orders-row"
+          key="7"
+        />
+        <div
+          className="table-row orders-row"
+          key="8"
+        />
+        <div
+          className="table-row orders-row"
+          key="9"
+        />
+      </ScrollBar>
+    </div>
+  </div>
+  <div
+    className="table-bottom-bar open-orders-bottom-bar"
+  >
+    <Paginator
+      currentPage={1}
+      itemsPerPage={10}
+      numItems={0}
+      setPage={[Function]}
+    />
+  </div>
+</Fragment>
+`;

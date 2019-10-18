@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Paginator/> basic rendering renders and matches the snapshot 1`] = `
+<div
+  className="paginator"
+>
+  <span
+    className="paginator-num pos-0 active"
+    key="1"
+    onClick={[Function]}
+  >
+    1
+  </span>
+</div>
+`;

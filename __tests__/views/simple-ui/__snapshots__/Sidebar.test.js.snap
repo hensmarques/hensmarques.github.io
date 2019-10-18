@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar/> renders and matches the snapshot 1`] = `
+<ul
+  className="sidebar"
+>
+  <i
+    className="far fa-times fa-2x sidebar-icon-close"
+    onClick={[Function]}
+  />
+  <li
+    className="logo-container"
+  >
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/home"
+    >
+      <img
+        src="test-file-stub"
+      />
+    </NavLink>
+  </li>
+  <li
+    className="item nav-link"
+  >
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/home"
+    >
+      <i
+        className="fas fa-home"
+      />
+      Home
+    </NavLink>
+  </li>
+  <li
+    className="item nav-link"
+  >
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/buy-sell"
+    >
+      <i
+        className="fas fa-exchange"
+      />
+      Buy / Sell
+    </NavLink>
+  </li>
+  <li
+    className="item nav-link"
+  >
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/my-accounts"
+    >
+      <i
+        className="fas fa-university"
+      />
+      My Accounts
+    </NavLink>
+  </li>
+  <li
+    className="item nav-link"
+  >
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/trade"
+    >
+      <i
+        className="fas fa-chart-line"
+      />
+      Pro Trade
+    </NavLink>
+  </li>
+  <li
+    className="item balances-container"
+  >
+    <Connect(Balances) />
+  </li>
+  <li
+    className="item nav-link"
+  >
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/settings"
+    >
+      <i
+        className="fas fa-cog"
+      />
+      Settings
+    </NavLink>
+  </li>
+  <li
+    className="item nav-link"
+  >
+    <NavLink
+      activeClassName="active"
+      aria-current="page"
+      to="/help"
+    >
+      <i
+        className="fas fa-question-circle"
+      />
+      Help
+    </NavLink>
+  </li>
+  <li
+    className="item nav-link"
+  >
+    <a
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-sign-out-alt"
+      />
+       
+      Logout
+    </a>
+  </li>
+</ul>
+`;

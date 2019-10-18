@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PolicyViewHeader/> renders and matches the snapshot 1`] = `
+<nav
+  className="alt-nav"
+>
+  <div
+    className="nav-container"
+  >
+    <Link
+      className="logo"
+      replace={false}
+      to="/home"
+    >
+      <img
+        className="logo-img"
+        src="images/logos/company-logo-icon.png"
+      />
+    </Link>
+    <SiteMapNav />
+  </div>
+</nav>
+`;

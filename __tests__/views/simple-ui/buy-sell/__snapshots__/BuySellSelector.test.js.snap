@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BuySellSelector/> renders and matches the snapshot 1`] = `
+<div
+  className="buy-sell-selector"
+>
+  <div
+    className="buy-selector option active"
+  >
+    Buy BTC
+    <div
+      className="select-indicator"
+    />
+  </div>
+  <div
+    className="sell-selector option "
+  >
+    Sell BTC
+  </div>
+</div>
+`;

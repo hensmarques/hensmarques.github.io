@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WithdrawCrypto/> renders and matches the snapshot 1`] = `
+<Fragment>
+  <h3>
+    Please read the instructions below
+  </h3>
+  <p
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "You have: <span> Bitcoin</span> available for withdraw. Note: The total available to withdraw is the result of Balance minus Fee.",
+      }
+    }
+  />
+  <p>
+    Please double check the address before starting the withdraw process. Your transaction will be processed immediately. Network confirmations may take up to 1 hour.
+  </p>
+  <div
+    className="form-container-wrapper"
+  >
+    <Connect(FormContainer)
+      className="withdraw-fiat-form"
+      fields={
+        Array [
+          Object {
+            "name": "Amount",
+            "required": true,
+            "translation": "WITHDRAW_CRYPTO.AMOUNT",
+            "type": "text",
+            "validations": Object {
+              "onChange": Array [
+                Object {
+                  "name": "amount",
+                },
+              ],
+            },
+          },
+          Object {
+            "name": "Address",
+            "required": true,
+            "translation": "WITHDRAW_CRYPTO.EXTERNAL_ADDRESS",
+            "type": "text",
+            "validations": Object {
+              "onChange": Array [
+                Object {
+                  "name": "validWalletAddress",
+                },
+                Object {
+                  "name": "illegalWalletAddress",
+                },
+              ],
+            },
+          },
+        ]
+      }
+      key="withdraw-fiat-form"
+      onChange={[Function]}
+      onSubmit={[Function]}
+      setValue={null}
+      submitText="Process Withdraw"
+      translation="WITHDRAW"
+      validationData={
+        Object {
+          "currency": "BTC",
+        }
+      }
+    />
+    <div
+      className="breakdown-container"
+    >
+      <p
+        className="net-amount"
+      >
+        <span>
+          To Receive
+          :
+        </span>
+        <span>
+          0
+           
+          BTC
+        </span>
+      </p>
+      <p
+        className="fee"
+      >
+        <span>
+          Fee
+          :
+        </span>
+        <span>
+          0
+           
+          BTC
+        </span>
+      </p>
+    </div>
+  </div>
+</Fragment>
+`;

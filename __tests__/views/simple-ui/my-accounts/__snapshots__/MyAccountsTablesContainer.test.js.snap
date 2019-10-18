@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyAccountsTablesContainer/> renders and matches the snapshot 1`] = `
+<WidgetWrapper
+  classNames={
+    Array [
+      "account-history",
+      "filled-orders",
+    ]
+  }
+  tabs={
+    Array [
+      "Account History",
+      "Order History",
+    ]
+  }
+>
+  <Connect(AccountHistory) />
+  <Connect(FilledOrders) />
+</WidgetWrapper>
+`;

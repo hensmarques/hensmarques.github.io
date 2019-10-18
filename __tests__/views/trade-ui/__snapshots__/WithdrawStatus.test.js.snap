@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WithdrawStatus/> renders and matches the snapshot 1`] = `
+<Fragment>
+  <div
+    className="table withdraw-status-table"
+  >
+    <div
+      className="table-header withdraw-status-header"
+    >
+      <span
+        className="withdraw-status-account"
+      >
+        Account
+      </span>
+      <span
+        className="withdraw-status-product"
+      >
+        Product
+      </span>
+      <span
+        className="withdraw-status-amount"
+      >
+        Amount
+      </span>
+      <span
+        className="withdraw-status-status"
+      >
+        Status
+      </span>
+      <span
+        className="withdraw-status-created"
+      >
+        Created
+      </span>
+      <span
+        className="withdraw-status-actions"
+      >
+        Actions
+      </span>
+    </div>
+    <div
+      className="table-rows withdraw-status-rows"
+    >
+      <ScrollBar
+        className=""
+        component="div"
+        containerRef={[Function]}
+      >
+        <div
+          className="table-row inactive-orders-row"
+          key="0"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="1"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="2"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="3"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="4"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="5"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="6"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="7"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="8"
+        />
+        <div
+          className="table-row inactive-orders-row"
+          key="9"
+        />
+      </ScrollBar>
+    </div>
+  </div>
+  <div
+    className="table-bottom-bar withdraw-status-bottom-bar"
+  />
+</Fragment>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox/> renders and matches the snapshot 1`] = `
+<label
+  className="checkbox-input undefined form-field "
+>
+  <div
+    className="checkbox"
+  >
+    <input
+      name="mock-name"
+      type="checkbox"
+      value="true"
+    />
+  </div>
+  <div
+    className="checkbox-text"
+  >
+    mock name
+  </div>
+</label>
+`;

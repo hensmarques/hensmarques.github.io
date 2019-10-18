@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Languages/> with default props matches the snapshot 1`] = `
+<div
+  className="languages-container"
+>
+  <a
+    className="dropdown-button"
+    onClick={[Function]}
+  >
+    <span>
+      English (US)
+    </span>
+  </a>
+</div>
+`;
+
+exports[`with multiple languages renders, can toggle dropdown language list, and matches snapshot 1`] = `
+<div
+  className="languages-container"
+>
+  <a
+    className="dropdown-button"
+    onClick={[Function]}
+  >
+    <span>
+      English (US)
+    </span>
+    <i
+      className="fas fa-caret-up"
+    />
+  </a>
+  <div
+    className="dropdown-list"
+  >
+    <ul>
+      <li
+        className="language-item active"
+        key="0"
+      >
+        <a
+          onClick={[Function]}
+        >
+          English (US)
+        </a>
+      </li>
+      <li
+        className="language-item "
+        key="1"
+      >
+        <a
+          onClick={[Function]}
+        >
+          Deutsch
+        </a>
+      </li>
+      <li
+        className="language-item "
+        key="2"
+      >
+        <a
+          onClick={[Function]}
+        >
+          Francais
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

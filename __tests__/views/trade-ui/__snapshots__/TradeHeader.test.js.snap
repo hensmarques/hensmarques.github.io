@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TradeHeader/> renders the props correctly 1`] = `
+<HeaderTicker
+  decimals={5}
+  tickerData={
+    Object {
+      "ask": "4045.44",
+      "bid": "3992.17",
+      "price_24h_change": "3.87",
+      "price_24h_max": "4226.34",
+      "price_24h_min": "3630.42",
+      "security_id": "BTCUSD",
+      "volume_24h_change": "0",
+    }
+  }
+>
+  <div
+    className="header-ticker"
+  >
+    <div
+      className="header-24hr-change"
+    >
+      <span
+        className="header-ticker-label"
+      >
+        24 Hour Change
+      </span>
+      <span
+        className="header-ticker-value "
+      >
+        3.8700
+        %
+      </span>
+    </div>
+    <div
+      className="header-bid"
+    >
+      <span
+        className="header-ticker-label"
+      >
+        Bid
+      </span>
+      <span
+        className="header-ticker-value"
+      >
+        3992.17000
+      </span>
+    </div>
+    <div
+      className="header-ask"
+    >
+      <span
+        className="header-ticker-label"
+      >
+        Ask
+      </span>
+      <span
+        className="header-ticker-value"
+      >
+        4045.44000
+      </span>
+    </div>
+    <div
+      className="header-24hr-volume"
+    >
+      <span
+        className="header-ticker-label"
+      >
+        24 Hour Volume
+      </span>
+      <span
+        className="header-ticker-value"
+      >
+        0
+      </span>
+    </div>
+    <div
+      className="header-24hr-low"
+    >
+      <span
+        className="header-ticker-label"
+      >
+        24 Hour Low
+      </span>
+      <span
+        className="header-ticker-value"
+      >
+        3630.42000
+      </span>
+    </div>
+    <div
+      className="header-24hr-high"
+    >
+      <span
+        className="header-ticker-label"
+      >
+        24 Hour High
+      </span>
+      <span
+        className="header-ticker-value"
+      >
+        4226.34000
+      </span>
+    </div>
+  </div>
+</HeaderTicker>
+`;

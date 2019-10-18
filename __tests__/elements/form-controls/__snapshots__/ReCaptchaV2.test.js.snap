@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReCAPTCHAv2/> renders and matches the snapshot 1`] = `
+<AsyncScriptLoader(ReCAPTCHA)
+  onChange={[Function]}
+  sitekey="6LeFaFkUAAAAAJVL3BuBTdv9kT2Hk2fJTKlodoXm"
+  theme="dark"
+/>
+`;

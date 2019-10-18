@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DocumentDownload/> renders and handles fileName prop 1`] = `
+<DocumentDownload
+  dispatch={[Function]}
+  file={
+    Object {
+      "value": File {},
+    }
+  }
+  fileName="document.jpg"
+>
+  <div
+    className="document-download-label"
+  >
+    Document
+  </div>
+  <div
+    className="document-download"
+  >
+    <div
+      className="file-name"
+    >
+      document.jpg
+    </div>
+    <div
+      className="download-button"
+      onClick={[Function]}
+    >
+      <div
+        className="icon-container"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-download"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentDownload>
+`;

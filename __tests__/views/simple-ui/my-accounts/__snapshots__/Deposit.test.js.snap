@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Deposit/> renders and matches the snapshot 1`] = `
+<div
+  className="deposit-modal"
+>
+  <Form
+    className="deposit-form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="amount-input"
+    >
+      <TextInput
+        className=""
+        disabled={true}
+        errorMessages={Array []}
+        hideInput={false}
+        name="Amount"
+        onChange={[Function]}
+        placeholder=""
+        placeholderParam={Object {}}
+        type="text"
+        value=""
+        writeOnce={false}
+      />
+    </div>
+    <div>
+      <Button
+        className=""
+        disabled={false}
+        loading={true}
+        loadingStatus={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Make Deposit
+      </Button>
+    </div>
+  </Form>
+</div>
+`;

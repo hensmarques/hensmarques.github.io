@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleUiWrapper/> renders and matches the snapshot 1`] = `
+<div
+  className="simple-ui-container"
+>
+  <div
+    className="simple-ui"
+  >
+    <div
+      className="sidebar-container "
+    >
+      <Connect(ErrorBoundary)>
+        <withRouter(Connect(Sidebar))
+          toggleSidebar={[Function]}
+        />
+      </Connect(ErrorBoundary)>
+    </div>
+    <div
+      className="main-container null"
+    >
+      <Connect(ErrorBoundary)>
+        <Connect(SimpleUiHeader)
+          showSidebar={false}
+          toggleSidebar={[Function]}
+        />
+      </Connect(ErrorBoundary)>
+      <div
+        className="content-container"
+      >
+        <div
+          className="page-heading"
+        >
+          <h2 />
+        </div>
+        <div
+          className="description"
+        >
+          <p />
+        </div>
+        <div
+          className="content"
+        >
+          <Connect(ErrorBoundary) />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
