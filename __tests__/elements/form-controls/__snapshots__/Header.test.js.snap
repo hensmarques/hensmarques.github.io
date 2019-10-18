@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Header/> renders with default props and matches the snapshot 1`] = `
-<div
-  className="form-field header "
->
-  <h1 />
-</div>
-`;
