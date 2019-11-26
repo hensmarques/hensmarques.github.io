@@ -1,0 +1,57 @@
+.panel{
+    background: white;
+    padding: 50px 50px 50px 0;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    position: relative;
+
+    @include mobile{
+        padding: 50px 20px;
+    }
+
+    &.with-title{
+        padding-top: 70px;
+
+        @include desktop{
+            &:after {
+                content: '';
+                position: absolute;
+                width: calc((100vw - 900px) / 2);
+                left: calc((100vw - 900px) / -2);
+                height: 100%;
+                background: white;
+                top: 0;
+                z-index: -1;
+            }
+        }
+    }
+
+    @include desktop{
+        &.right{
+            margin-left: -30px;
+            padding-left: 30px;
+
+            &:after{
+                left: auto;
+                right: calc((100vw - 920px) / -2);
+            }
+        }
+    }
+
+    &-title{
+        background-color: $c_primary;
+        color: white;
+        width: 725px;
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        padding: 7.5px 15px;
+        margin-left: -15px;
+
+        @include tablet{
+            width: calc(100vw - 40px);
+            padding: 7.5px 30px;
+            margin-left: -35px;
+        }
+    }
+}

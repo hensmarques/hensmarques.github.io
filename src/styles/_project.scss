@@ -1,0 +1,99 @@
+.project{
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+
+    @include mobile{
+        flex-direction: column;
+    }
+
+    .button{
+        color: white;
+        background: $c_primary;
+        padding: 5px 10px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 11px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    &-image{
+        margin-right: 15px;
+        width: 150px;
+        max-height: 120px;
+        object-fit: contain;
+
+        @include mobile{
+            margin: 0 0 15px 0;
+        }
+    }
+
+    &-content{
+        flex: 1;
+
+        p{
+            font-size: 14px;
+        }
+    }
+
+    &-title{
+        color: $c_primary;
+        font-weight: bold;
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+
+    &-tags{
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            background: $c_lightgray;
+            margin-right: 10px;
+            padding: 4px 7px;
+            display: flex;
+            align-items: center;
+        }
+
+        p{
+            font-size: 12px;
+        }
+
+        img{ height: 20px; }
+    }
+}
+
+.techs-list{
+    border-bottom: 1px solid $c_primary;
+    padding-bottom: 10px;
+
+    img{
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    li{
+        cursor: pointer;
+
+        @include mobile{
+            flex: 1;
+            text-align: center;
+        }
+    }
+
+    li.active{  
+        border-bottom: 2px solid $c_primary;
+    }
+}
+
+.portfolio{
+    &-filter-title{
+        @include mobile{
+            flex: 0 0 100% !important;
+            text-align: left !important;
+        }
+    }
+}
